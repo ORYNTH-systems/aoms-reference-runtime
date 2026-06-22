@@ -1,0 +1,30 @@
+{
+  "case_id": "AOMS-096",
+  "description": "Temporal + Dependency Failure",
+  "authorized": {
+    "authorization_id": "AOMS-096",
+    "actor_id": "compound-actor-096",
+    "authorized_action": "execute_action",
+    "authorized_at": "2026-06-22T09:00:00",
+    "expires_at": "2026-06-23T09:00:00",
+    "authority_valid": true,
+    "identity_state": "verified",
+    "policy_version": "1.0",
+    "dependency_state": "active",
+    "resource_state": "available",
+    "environment_state": "normal",
+    "evidence_state": "sufficient"
+  },
+  "current": {
+    "actor_id": "compound-actor-096",
+    "current_action": "execute_action",
+    "execution_attempted_at": "2026-06-24T12:00:00",
+    "authority_valid": true,
+    "identity_state": "verified",
+    "policy_version": "1.0",
+    "dependency_state": "failed",
+    "resource_state": "available",
+    "environment_state": "normal",
+    "evidence_state": "sufficient"
+  }
+}

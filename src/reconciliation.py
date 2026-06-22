@@ -34,6 +34,9 @@ def reconcile(
     if current.environment_state != authorized.environment_state:
         violations.append("environment_invalid")
 
+    if current.evidence_state != authorized.evidence_state:
+        violations.append("evidence_insufficient")
+
     admissibility = len(violations) == 0
 
     return ReconciliationResult(

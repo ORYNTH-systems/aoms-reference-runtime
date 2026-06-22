@@ -15,6 +15,7 @@ class AuthorizedState:
     dependency_state: str
     resource_state: str
     environment_state: str
+    evidence_state: str
 
 
 @dataclass
@@ -28,6 +29,7 @@ class CurrentState:
     dependency_state: str
     resource_state: str
     environment_state: str
+    evidence_state: str
 
 
 @dataclass

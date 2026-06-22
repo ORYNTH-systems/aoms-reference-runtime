@@ -1,0 +1,30 @@
+{
+  "case_id": "AOMS-100",
+  "description": "Full Reconstruction Failure",
+  "authorized": {
+    "authorization_id": "AOMS-100",
+    "actor_id": "compound-actor-100",
+    "authorized_action": "execute_action",
+    "authorized_at": "2026-06-22T09:00:00",
+    "expires_at": "2026-06-23T09:00:00",
+    "authority_valid": true,
+    "identity_state": "verified",
+    "policy_version": "1.0",
+    "dependency_state": "active",
+    "resource_state": "available",
+    "environment_state": "normal",
+    "evidence_state": "sufficient"
+  },
+  "current": {
+    "actor_id": "compound-actor-100",
+    "current_action": "different_action",
+    "execution_attempted_at": "2026-06-24T12:00:00",
+    "authority_valid": false,
+    "identity_state": "changed",
+    "policy_version": "2.0",
+    "dependency_state": "failed",
+    "resource_state": "unavailable",
+    "environment_state": "restricted",
+    "evidence_state": "insufficient"
+  }
+}
