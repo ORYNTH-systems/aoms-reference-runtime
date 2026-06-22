@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-031",
+  "description": "Actor Identity Changed",
+  "violations": [
+    "identity_continuity_failed"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

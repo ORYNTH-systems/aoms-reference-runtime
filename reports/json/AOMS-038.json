@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-038",
+  "description": "Session Identity Lost",
+  "violations": [
+    "identity_continuity_failed"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

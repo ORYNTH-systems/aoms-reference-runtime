@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-034",
+  "description": "Credential Subject Mismatch",
+  "violations": [
+    "identity_continuity_failed"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

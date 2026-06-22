@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-035",
+  "description": "Delegated Actor Mismatch",
+  "violations": [
+    "identity_continuity_failed"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}
