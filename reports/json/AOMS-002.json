@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-002",
+  "description": "Role Removal Before Execution",
+  "violations": [
+    "authority_invalid"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}
