@@ -1,0 +1,12 @@
+{
+  "case_id": "AOMS-099",
+  "description": "Multi-Domain Admissibility Collapse",
+  "violations": [
+    "authority_invalid",
+    "policy_changed",
+    "dependency_state_changed",
+    "resource_unavailable"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

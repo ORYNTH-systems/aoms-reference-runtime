@@ -1,0 +1,10 @@
+{
+  "case_id": "AOMS-093",
+  "description": "Dependency + Resource Failure",
+  "violations": [
+    "dependency_state_changed",
+    "resource_unavailable"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

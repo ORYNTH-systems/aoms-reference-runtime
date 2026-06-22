@@ -1,0 +1,10 @@
+{
+  "case_id": "AOMS-096",
+  "description": "Temporal + Dependency Failure",
+  "violations": [
+    "authorization_expired",
+    "dependency_state_changed"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

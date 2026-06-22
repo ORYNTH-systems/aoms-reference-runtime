@@ -1,0 +1,10 @@
+{
+  "case_id": "AOMS-091",
+  "description": "Authority + Policy Failure",
+  "violations": [
+    "authority_invalid",
+    "policy_changed"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

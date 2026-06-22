@@ -1,0 +1,10 @@
+{
+  "case_id": "AOMS-092",
+  "description": "Identity + Policy Failure",
+  "violations": [
+    "identity_continuity_failed",
+    "policy_changed"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

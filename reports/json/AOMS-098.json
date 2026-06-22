@@ -1,0 +1,11 @@
+{
+  "case_id": "AOMS-098",
+  "description": "Identity + Environment + Agentic Failure",
+  "violations": [
+    "identity_continuity_failed",
+    "action_drift_detected",
+    "environment_invalid"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

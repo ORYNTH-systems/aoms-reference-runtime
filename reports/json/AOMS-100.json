@@ -1,0 +1,17 @@
+{
+  "case_id": "AOMS-100",
+  "description": "Full Reconstruction Failure",
+  "violations": [
+    "authority_invalid",
+    "identity_continuity_failed",
+    "authorization_expired",
+    "action_drift_detected",
+    "policy_changed",
+    "dependency_state_changed",
+    "resource_unavailable",
+    "environment_invalid",
+    "evidence_insufficient"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

@@ -1,0 +1,10 @@
+{
+  "case_id": "AOMS-094",
+  "description": "Environment + Policy Failure",
+  "violations": [
+    "policy_changed",
+    "environment_invalid"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

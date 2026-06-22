@@ -1,0 +1,10 @@
+{
+  "case_id": "AOMS-095",
+  "description": "Agentic + Identity Failure",
+  "violations": [
+    "identity_continuity_failed",
+    "action_drift_detected"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}
