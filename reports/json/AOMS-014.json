@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-014",
+  "description": "Risk Threshold Lowered",
+  "violations": [
+    "policy_changed"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-012",
+  "description": "Regulatory Rule Update",
+  "violations": [
+    "policy_changed"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

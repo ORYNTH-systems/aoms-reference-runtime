@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-016",
+  "description": "Policy Version Mismatch",
+  "violations": [
+    "policy_changed"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

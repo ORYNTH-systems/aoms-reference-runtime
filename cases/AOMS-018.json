@@ -1,0 +1,26 @@
+{
+  "case_id": "AOMS-018",
+  "description": "Policy Exception Expired",
+  "authorized": {
+    "authorization_id": "AOMS-018",
+    "actor_id": "actor-policy-018",
+    "authorized_action": "execute_exception_action",
+    "authorized_at": "2026-06-22T09:00:00",
+    "expires_at": "2026-06-23T09:00:00",
+    "authority_valid": true,
+    "policy_version": "exception-active",
+    "dependency_state": "active",
+    "resource_state": "available",
+    "environment_state": "normal"
+  },
+  "current": {
+    "actor_id": "actor-policy-018",
+    "current_action": "execute_exception_action",
+    "execution_attempted_at": "2026-06-22T12:00:00",
+    "authority_valid": true,
+    "policy_version": "exception-expired",
+    "dependency_state": "active",
+    "resource_state": "available",
+    "environment_state": "normal"
+  }
+}

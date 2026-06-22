@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-020",
+  "description": "Policy Dependency Invalidated",
+  "violations": [
+    "policy_changed"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

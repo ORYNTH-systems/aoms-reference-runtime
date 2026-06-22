@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-019",
+  "description": "Prohibited Action Added",
+  "violations": [
+    "policy_changed"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

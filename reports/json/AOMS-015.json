@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-015",
+  "description": "Jurisdictional Policy Conflict",
+  "violations": [
+    "policy_changed"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

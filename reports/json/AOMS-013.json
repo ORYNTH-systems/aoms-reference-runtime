@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-013",
+  "description": "Compliance Requirement Added",
+  "violations": [
+    "policy_changed"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}
