@@ -1,7 +1,9 @@
 {
   "case_id": "AOMS-023",
   "description": "Execution Attempt Too Early",
-  "violations": [],
-  "admissibility": true,
-  "execution_result": "APPROVED"
+  "violations": [
+    "execution_too_early"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
 }

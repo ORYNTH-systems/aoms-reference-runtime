@@ -10,6 +10,9 @@ def reconcile(
     if not current.authority_valid:
         violations.append("authority_invalid")
 
+    if current.execution_attempted_at < authorized.authorized_at:
+        violations.append("execution_too_early")
+
     if current.execution_attempted_at > authorized.expires_at:
         violations.append("authorization_expired")
 

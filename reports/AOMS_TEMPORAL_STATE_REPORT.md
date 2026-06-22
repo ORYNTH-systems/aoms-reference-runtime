@@ -12,7 +12,7 @@ The Temporal State category tests whether execution is declined when the timing 
 |---|---|---|---|
 | AOMS-021 | Authorization Expired | authorization_expired | DECLINED |
 | AOMS-022 | Approval Window Closed | authorization_expired | DECLINED |
-| AOMS-023 | Execution Attempt Too Early | authorization_expired | DECLINED |
+| AOMS-023 | Execution Attempt Too Early | execution_too_early | DECLINED |
 | AOMS-024 | Execution Attempt Too Late | authorization_expired | DECLINED |
 | AOMS-025 | Deadline Passed | authorization_expired | DECLINED |
 | AOMS-026 | Scheduled State Changed | authorization_expired | DECLINED |
@@ -32,12 +32,13 @@ The Temporal State category tests whether execution is declined when the timing 
 ## Expected Violation Frequency After Category C
 
 - authority_invalid: 8
-- authorization_expired: 12
+- authorization_expired: 11
+- execution_too_early: 1
 - policy_changed: 10
 
 ## Architectural Finding
 
-The Temporal State category demonstrates that prior authorization does not preserve execution eligibility when temporal eligibility conditions have expired, closed, or otherwise no longer align with execution time.
+The Temporal State category demonstrates that prior authorization does not preserve execution eligibility when temporal eligibility conditions have expired, have not yet opened, or otherwise no longer align with execution time.
 
 Different operational timing failures collapse into deterministic admissibility violations.
 
