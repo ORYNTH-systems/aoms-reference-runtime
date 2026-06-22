@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-010",
+  "description": "Authority Chain Break",
+  "violations": [
+    "authority_invalid"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

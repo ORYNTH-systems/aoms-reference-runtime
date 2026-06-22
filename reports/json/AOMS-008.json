@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-008",
+  "description": "Access Grant Revoked",
+  "violations": [
+    "authority_invalid"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-003",
+  "description": "Credential Expiry Before Execution",
+  "violations": [
+    "authorization_expired"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

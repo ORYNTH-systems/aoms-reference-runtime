@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-009",
+  "description": "Cross-Authority Conflict",
+  "violations": [
+    "authority_invalid"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

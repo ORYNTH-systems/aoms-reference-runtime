@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-004",
+  "description": "Authorization Window Expiration",
+  "violations": [
+    "authorization_expired"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

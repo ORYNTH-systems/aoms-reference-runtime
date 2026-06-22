@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-007",
+  "description": "Signing Authority Removed",
+  "violations": [
+    "authority_invalid"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

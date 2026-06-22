@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-005",
+  "description": "Approval Authority Withdrawn",
+  "violations": [
+    "authority_invalid"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

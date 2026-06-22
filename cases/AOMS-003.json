@@ -1,0 +1,26 @@
+{
+  "case_id": "AOMS-003",
+  "description": "Credential Expiry Before Execution",
+  "authorized": {
+    "authorization_id": "AOMS-003",
+    "actor_id": "clinician-789",
+    "authorized_action": "approve_request",
+    "authorized_at": "2026-06-22T09:00:00",
+    "expires_at": "2026-06-22T10:00:00",
+    "authority_valid": true,
+    "policy_version": "1.0",
+    "dependency_state": "active",
+    "resource_state": "available",
+    "environment_state": "normal"
+  },
+  "current": {
+    "actor_id": "clinician-789",
+    "current_action": "approve_request",
+    "execution_attempted_at": "2026-06-22T11:00:00",
+    "authority_valid": true,
+    "policy_version": "1.0",
+    "dependency_state": "active",
+    "resource_state": "available",
+    "environment_state": "normal"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "case_id": "AOMS-004",
+  "description": "Authorization Window Expiration",
+  "authorized": {
+    "authorization_id": "AOMS-004",
+    "actor_id": "settlement-agent-101",
+    "authorized_action": "release_funds",
+    "authorized_at": "2026-06-22T08:00:00",
+    "expires_at": "2026-06-22T09:00:00",
+    "authority_valid": true,
+    "policy_version": "1.0",
+    "dependency_state": "active",
+    "resource_state": "available",
+    "environment_state": "normal"
+  },
+  "current": {
+    "actor_id": "settlement-agent-101",
+    "current_action": "release_funds",
+    "execution_attempted_at": "2026-06-22T10:00:00",
+    "authority_valid": true,
+    "policy_version": "1.0",
+    "dependency_state": "active",
+    "resource_state": "available",
+    "environment_state": "normal"
+  }
+}

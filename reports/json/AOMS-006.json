@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-006",
+  "description": "Supervisor Override Revoked",
+  "violations": [
+    "authority_invalid"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}
