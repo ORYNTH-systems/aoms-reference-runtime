@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-044",
+  "description": "Data Source Invalidated",
+  "violations": [
+    "dependency_state_changed"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

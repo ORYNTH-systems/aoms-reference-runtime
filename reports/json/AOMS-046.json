@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-046",
+  "description": "Contract Dependency Terminated",
+  "violations": [
+    "dependency_state_changed"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

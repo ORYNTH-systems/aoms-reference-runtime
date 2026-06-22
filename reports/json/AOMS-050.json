@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-050",
+  "description": "Dependency Chain Break",
+  "violations": [
+    "dependency_state_changed"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

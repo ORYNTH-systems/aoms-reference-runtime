@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-045",
+  "description": "Vendor Dependency Suspended",
+  "violations": [
+    "dependency_state_changed"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

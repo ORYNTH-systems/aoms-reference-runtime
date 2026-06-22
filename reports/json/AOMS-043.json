@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-043",
+  "description": "External API State Changed",
+  "violations": [
+    "dependency_state_changed"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

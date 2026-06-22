@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-048",
+  "description": "Required Approval Missing",
+  "violations": [
+    "dependency_state_changed"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

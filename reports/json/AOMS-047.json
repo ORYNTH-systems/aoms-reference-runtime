@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-047",
+  "description": "Certificate Dependency Expired",
+  "violations": [
+    "dependency_state_changed"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

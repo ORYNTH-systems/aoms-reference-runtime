@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-042",
+  "description": "Required Service Unavailable",
+  "violations": [
+    "dependency_state_changed"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

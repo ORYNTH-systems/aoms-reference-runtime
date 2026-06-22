@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-049",
+  "description": "Upstream Process Failed",
+  "violations": [
+    "dependency_state_changed"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

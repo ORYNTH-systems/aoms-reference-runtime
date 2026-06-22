@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-041",
+  "description": "Dependency State Changed",
+  "violations": [
+    "dependency_state_changed"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}
