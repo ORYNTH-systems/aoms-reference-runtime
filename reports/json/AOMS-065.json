@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-065",
+  "description": "Disaster Recovery Mode Enabled",
+  "violations": [
+    "environment_invalid"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

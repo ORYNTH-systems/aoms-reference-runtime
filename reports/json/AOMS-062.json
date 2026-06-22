@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-062",
+  "description": "Operational Mode Changed",
+  "violations": [
+    "environment_invalid"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

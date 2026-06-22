@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-064",
+  "description": "Network Isolation Activated",
+  "violations": [
+    "environment_invalid"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

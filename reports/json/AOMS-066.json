@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-066",
+  "description": "Emergency Operations Activated",
+  "violations": [
+    "environment_invalid"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

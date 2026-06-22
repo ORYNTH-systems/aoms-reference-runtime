@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-070",
+  "description": "Execution Environment Invalid",
+  "violations": [
+    "environment_invalid"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

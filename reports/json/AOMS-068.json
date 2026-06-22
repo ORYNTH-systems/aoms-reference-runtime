@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-068",
+  "description": "Maintenance Window Active",
+  "violations": [
+    "environment_invalid"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}
