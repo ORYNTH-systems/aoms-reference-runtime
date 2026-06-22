@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-083",
+  "description": "Evidence Integrity Failure",
+  "violations": [
+    "evidence_insufficient"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

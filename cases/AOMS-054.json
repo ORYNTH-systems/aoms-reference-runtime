@@ -1,7 +1,6 @@
 {
   "case_id": "AOMS-054",
   "description": "Inventory Unavailable",
-
   "authorized": {
     "authorization_id": "AOMS-054",
     "actor_id": "resource-actor-054",
@@ -13,9 +12,9 @@
     "policy_version": "1.0",
     "dependency_state": "active",
     "resource_state": "available",
-    "environment_state": "normal"
+    "environment_state": "normal",
+    "evidence_state": "sufficient"
   },
-
   "current": {
     "actor_id": "resource-actor-054",
     "current_action": "execute_resource_bound_action",
@@ -25,6 +24,7 @@
     "policy_version": "1.0",
     "dependency_state": "active",
     "resource_state": "inventory_unavailable",
-    "environment_state": "normal"
+    "environment_state": "normal",
+    "evidence_state": "sufficient"
   }
 }

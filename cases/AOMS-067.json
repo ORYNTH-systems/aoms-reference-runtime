@@ -1,7 +1,6 @@
 {
   "case_id": "AOMS-067",
   "description": "Geographic Restriction Activated",
-
   "authorized": {
     "authorization_id": "AOMS-067",
     "actor_id": "environment-actor-067",
@@ -13,9 +12,9 @@
     "policy_version": "1.0",
     "dependency_state": "active",
     "resource_state": "available",
-    "environment_state": "normal"
+    "environment_state": "normal",
+    "evidence_state": "sufficient"
   },
-
   "current": {
     "actor_id": "environment-actor-067",
     "current_action": "execute_environment_bound_action",
@@ -25,6 +24,7 @@
     "policy_version": "1.0",
     "dependency_state": "active",
     "resource_state": "available",
-    "environment_state": "geographic_restriction"
+    "environment_state": "geographic_restriction",
+    "evidence_state": "sufficient"
   }
 }

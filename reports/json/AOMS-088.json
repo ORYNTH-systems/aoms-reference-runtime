@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-088",
+  "description": "Verification Artifact Invalid",
+  "violations": [
+    "evidence_insufficient"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

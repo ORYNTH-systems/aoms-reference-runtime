@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-082",
+  "description": "Evidence Expired",
+  "violations": [
+    "evidence_insufficient"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

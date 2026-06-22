@@ -1,7 +1,6 @@
 {
   "case_id": "AOMS-077",
   "description": "Agent Capability Change",
-
   "authorized": {
     "authorization_id": "AOMS-077",
     "actor_id": "agent-actor-077",
@@ -13,9 +12,9 @@
     "policy_version": "1.0",
     "dependency_state": "active",
     "resource_state": "available",
-    "environment_state": "normal"
+    "environment_state": "normal",
+    "evidence_state": "sufficient"
   },
-
   "current": {
     "actor_id": "agent-actor-077",
     "current_action": "delete_documents",
@@ -25,6 +24,7 @@
     "policy_version": "1.0",
     "dependency_state": "active",
     "resource_state": "available",
-    "environment_state": "normal"
+    "environment_state": "normal",
+    "evidence_state": "sufficient"
   }
 }

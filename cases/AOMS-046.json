@@ -1,7 +1,6 @@
 {
   "case_id": "AOMS-046",
   "description": "Contract Dependency Terminated",
-
   "authorized": {
     "authorization_id": "AOMS-046",
     "actor_id": "dependency-actor-046",
@@ -13,9 +12,9 @@
     "policy_version": "1.0",
     "dependency_state": "active",
     "resource_state": "available",
-    "environment_state": "normal"
+    "environment_state": "normal",
+    "evidence_state": "sufficient"
   },
-
   "current": {
     "actor_id": "dependency-actor-046",
     "current_action": "execute_dependency_bound_action",
@@ -25,6 +24,7 @@
     "policy_version": "1.0",
     "dependency_state": "contract_terminated",
     "resource_state": "available",
-    "environment_state": "normal"
+    "environment_state": "normal",
+    "evidence_state": "sufficient"
   }
 }

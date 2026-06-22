@@ -1,7 +1,6 @@
 {
   "case_id": "AOMS-043",
   "description": "External API State Changed",
-
   "authorized": {
     "authorization_id": "AOMS-043",
     "actor_id": "dependency-actor-043",
@@ -13,9 +12,9 @@
     "policy_version": "1.0",
     "dependency_state": "active",
     "resource_state": "available",
-    "environment_state": "normal"
+    "environment_state": "normal",
+    "evidence_state": "sufficient"
   },
-
   "current": {
     "actor_id": "dependency-actor-043",
     "current_action": "execute_dependency_bound_action",
@@ -25,6 +24,7 @@
     "policy_version": "1.0",
     "dependency_state": "api_state_changed",
     "resource_state": "available",
-    "environment_state": "normal"
+    "environment_state": "normal",
+    "evidence_state": "sufficient"
   }
 }

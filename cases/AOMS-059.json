@@ -1,7 +1,6 @@
 {
   "case_id": "AOMS-059",
   "description": "Quota Exhausted",
-
   "authorized": {
     "authorization_id": "AOMS-059",
     "actor_id": "resource-actor-059",
@@ -13,9 +12,9 @@
     "policy_version": "1.0",
     "dependency_state": "active",
     "resource_state": "available",
-    "environment_state": "normal"
+    "environment_state": "normal",
+    "evidence_state": "sufficient"
   },
-
   "current": {
     "actor_id": "resource-actor-059",
     "current_action": "execute_resource_bound_action",
@@ -25,6 +24,7 @@
     "policy_version": "1.0",
     "dependency_state": "active",
     "resource_state": "quota_exhausted",
-    "environment_state": "normal"
+    "environment_state": "normal",
+    "evidence_state": "sufficient"
   }
 }

@@ -12,7 +12,8 @@
     "dependency_state": "active",
     "resource_state": "available",
     "environment_state": "normal",
-    "identity_state": "verified"
+    "identity_state": "verified",
+    "evidence_state": "sufficient"
   },
   "current": {
     "actor_id": "actor-policy-014",
@@ -23,6 +24,7 @@
     "dependency_state": "active",
     "resource_state": "available",
     "environment_state": "normal",
-    "identity_state": "verified"
+    "identity_state": "verified",
+    "evidence_state": "sufficient"
   }
 }

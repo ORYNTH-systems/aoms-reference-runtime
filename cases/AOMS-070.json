@@ -1,7 +1,6 @@
 {
   "case_id": "AOMS-070",
   "description": "Execution Environment Invalid",
-
   "authorized": {
     "authorization_id": "AOMS-070",
     "actor_id": "environment-actor-070",
@@ -13,9 +12,9 @@
     "policy_version": "1.0",
     "dependency_state": "active",
     "resource_state": "available",
-    "environment_state": "normal"
+    "environment_state": "normal",
+    "evidence_state": "sufficient"
   },
-
   "current": {
     "actor_id": "environment-actor-070",
     "current_action": "execute_environment_bound_action",
@@ -25,6 +24,7 @@
     "policy_version": "1.0",
     "dependency_state": "active",
     "resource_state": "available",
-    "environment_state": "execution_environment_invalid"
+    "environment_state": "execution_environment_invalid",
+    "evidence_state": "sufficient"
   }
 }

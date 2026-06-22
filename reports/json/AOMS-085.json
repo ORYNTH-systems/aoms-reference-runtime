@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-085",
+  "description": "Evidence Continuity Lost",
+  "violations": [
+    "evidence_insufficient"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-087",
+  "description": "Audit Trail Missing",
+  "violations": [
+    "evidence_insufficient"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}
