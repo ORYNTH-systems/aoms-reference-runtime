@@ -10,6 +10,9 @@ def reconcile(
     if not current.authority_valid:
         violations.append("authority_invalid")
 
+    if current.identity_state != authorized.identity_state:
+        violations.append("identity_continuity_failed")
+
     if current.execution_attempted_at < authorized.authorized_at:
         violations.append("execution_too_early")
 

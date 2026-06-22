@@ -11,7 +11,8 @@
     "policy_version": "1.0",
     "dependency_state": "active",
     "resource_state": "available",
-    "environment_state": "normal"
+    "environment_state": "normal",
+    "identity_state": "verified"
   },
   "current": {
     "actor_id": "actor-policy-012",
@@ -21,6 +22,7 @@
     "policy_version": "reg-2026.2",
     "dependency_state": "active",
     "resource_state": "available",
-    "environment_state": "normal"
+    "environment_state": "normal",
+    "identity_state": "verified"
   }
 }

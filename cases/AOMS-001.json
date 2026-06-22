@@ -1,7 +1,6 @@
 {
   "case_id": "AOMS-001",
   "description": "Delegation Revocation Before Execution",
-
   "authorized": {
     "authorization_id": "AOMS-001",
     "actor_id": "vendor-123",
@@ -12,9 +11,9 @@
     "policy_version": "1.0",
     "dependency_state": "active",
     "resource_state": "available",
-    "environment_state": "normal"
+    "environment_state": "normal",
+    "identity_state": "verified"
   },
-
   "current": {
     "actor_id": "vendor-123",
     "current_action": "process_payment",
@@ -23,6 +22,7 @@
     "policy_version": "1.0",
     "dependency_state": "active",
     "resource_state": "available",
-    "environment_state": "normal"
+    "environment_state": "normal",
+    "identity_state": "verified"
   }
 }

@@ -10,6 +10,7 @@ class AuthorizedState:
     authorized_at: str
     expires_at: str
     authority_valid: bool
+    identity_state: str
     policy_version: str
     dependency_state: str
     resource_state: str
@@ -22,6 +23,7 @@ class CurrentState:
     current_action: str
     execution_attempted_at: str
     authority_valid: bool
+    identity_state: str
     policy_version: str
     dependency_state: str
     resource_state: str

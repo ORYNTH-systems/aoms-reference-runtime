@@ -1,7 +1,6 @@
 {
   "case_id": "AOMS-002",
   "description": "Role Removal Before Execution",
-
   "authorized": {
     "authorization_id": "AOMS-002",
     "actor_id": "operator-456",
@@ -12,9 +11,9 @@
     "policy_version": "1.0",
     "dependency_state": "active",
     "resource_state": "available",
-    "environment_state": "normal"
+    "environment_state": "normal",
+    "identity_state": "verified"
   },
-
   "current": {
     "actor_id": "operator-456",
     "current_action": "approve_transfer",
@@ -23,6 +22,7 @@
     "policy_version": "1.0",
     "dependency_state": "active",
     "resource_state": "available",
-    "environment_state": "normal"
+    "environment_state": "normal",
+    "identity_state": "verified"
   }
 }
