@@ -1,0 +1,26 @@
+{
+  "case_id": "AOMS-025",
+  "description": "Deadline Passed",
+  "authorized": {
+    "authorization_id": "AOMS-025",
+    "actor_id": "actor-temporal-025",
+    "authorized_action": "submit_deadline_bound_action",
+    "authorized_at": "2026-06-22T09:00:00",
+    "expires_at": "2026-06-22T17:00:00",
+    "authority_valid": true,
+    "policy_version": "1.0",
+    "dependency_state": "active",
+    "resource_state": "available",
+    "environment_state": "normal"
+  },
+  "current": {
+    "actor_id": "actor-temporal-025",
+    "current_action": "submit_deadline_bound_action",
+    "execution_attempted_at": "2026-06-22T18:00:00",
+    "authority_valid": true,
+    "policy_version": "1.0",
+    "dependency_state": "active",
+    "resource_state": "available",
+    "environment_state": "normal"
+  }
+}

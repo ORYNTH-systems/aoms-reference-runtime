@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-026",
+  "description": "Scheduled State Changed",
+  "violations": [
+    "authorization_expired"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

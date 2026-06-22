@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-030",
+  "description": "Temporal Sequence Violation",
+  "violations": [
+    "authorization_expired"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

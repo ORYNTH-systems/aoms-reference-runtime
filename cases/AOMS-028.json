@@ -1,0 +1,26 @@
+{
+  "case_id": "AOMS-028",
+  "description": "Temporary Authority Expired",
+  "authorized": {
+    "authorization_id": "AOMS-028",
+    "actor_id": "actor-temporal-028",
+    "authorized_action": "execute_temporary_authority_action",
+    "authorized_at": "2026-06-22T09:00:00",
+    "expires_at": "2026-06-22T10:00:00",
+    "authority_valid": true,
+    "policy_version": "1.0",
+    "dependency_state": "active",
+    "resource_state": "available",
+    "environment_state": "normal"
+  },
+  "current": {
+    "actor_id": "actor-temporal-028",
+    "current_action": "execute_temporary_authority_action",
+    "execution_attempted_at": "2026-06-22T11:00:00",
+    "authority_valid": true,
+    "policy_version": "1.0",
+    "dependency_state": "active",
+    "resource_state": "available",
+    "environment_state": "normal"
+  }
+}

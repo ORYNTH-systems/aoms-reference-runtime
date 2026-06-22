@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-022",
+  "description": "Approval Window Closed",
+  "violations": [
+    "authorization_expired"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

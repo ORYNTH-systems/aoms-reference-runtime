@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-024",
+  "description": "Execution Attempt Too Late",
+  "violations": [
+    "authorization_expired"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

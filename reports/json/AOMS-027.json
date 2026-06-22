@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-027",
+  "description": "Time-Bound Consent Expired",
+  "violations": [
+    "authorization_expired"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

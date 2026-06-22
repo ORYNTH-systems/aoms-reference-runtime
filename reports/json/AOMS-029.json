@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-029",
+  "description": "Grace Period Expired",
+  "violations": [
+    "authorization_expired"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}
