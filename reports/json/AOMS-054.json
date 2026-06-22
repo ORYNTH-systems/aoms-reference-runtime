@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-054",
+  "description": "Inventory Unavailable",
+  "violations": [
+    "resource_unavailable"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

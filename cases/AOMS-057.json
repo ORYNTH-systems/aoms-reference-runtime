@@ -1,0 +1,30 @@
+{
+  "case_id": "AOMS-057",
+  "description": "Rate Limit Exceeded",
+
+  "authorized": {
+    "authorization_id": "AOMS-057",
+    "actor_id": "resource-actor-057",
+    "authorized_action": "execute_resource_bound_action",
+    "authorized_at": "2026-06-22T09:00:00",
+    "expires_at": "2026-06-23T09:00:00",
+    "authority_valid": true,
+    "identity_state": "verified",
+    "policy_version": "1.0",
+    "dependency_state": "active",
+    "resource_state": "available",
+    "environment_state": "normal"
+  },
+
+  "current": {
+    "actor_id": "resource-actor-057",
+    "current_action": "execute_resource_bound_action",
+    "execution_attempted_at": "2026-06-22T12:00:00",
+    "authority_valid": true,
+    "identity_state": "verified",
+    "policy_version": "1.0",
+    "dependency_state": "active",
+    "resource_state": "rate_limit_exceeded",
+    "environment_state": "normal"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-056",
+  "description": "License Capacity Exceeded",
+  "violations": [
+    "resource_unavailable"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

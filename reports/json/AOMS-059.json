@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-059",
+  "description": "Quota Exhausted",
+  "violations": [
+    "resource_unavailable"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

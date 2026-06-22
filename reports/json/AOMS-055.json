@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-055",
+  "description": "Personnel Resource Unavailable",
+  "violations": [
+    "resource_unavailable"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

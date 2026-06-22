@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-060",
+  "description": "Resource Allocation Revoked",
+  "violations": [
+    "resource_unavailable"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

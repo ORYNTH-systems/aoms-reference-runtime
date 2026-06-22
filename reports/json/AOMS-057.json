@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-057",
+  "description": "Rate Limit Exceeded",
+  "violations": [
+    "resource_unavailable"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

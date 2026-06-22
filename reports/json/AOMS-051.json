@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-051",
+  "description": "Resource Constraint Emergence",
+  "violations": [
+    "resource_unavailable"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}
