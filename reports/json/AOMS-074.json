@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-074",
+  "description": "Delegated Agent Drift",
+  "violations": [
+    "action_drift_detected"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

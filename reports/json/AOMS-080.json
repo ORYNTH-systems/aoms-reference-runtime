@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-080",
+  "description": "Agent Intent Continuity Failure",
+  "violations": [
+    "action_drift_detected"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

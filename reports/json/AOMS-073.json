@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-073",
+  "description": "Objective Reinterpretation",
+  "violations": [
+    "action_drift_detected"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

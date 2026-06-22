@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-076",
+  "description": "Multi-Agent Coordination Drift",
+  "violations": [
+    "action_drift_detected"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

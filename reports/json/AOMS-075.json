@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-075",
+  "description": "Planner Executor Divergence",
+  "violations": [
+    "action_drift_detected"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}

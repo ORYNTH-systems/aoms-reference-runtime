@@ -1,0 +1,9 @@
+{
+  "case_id": "AOMS-078",
+  "description": "Autonomous Task Mutation",
+  "violations": [
+    "action_drift_detected"
+  ],
+  "admissibility": false,
+  "execution_result": "DECLINED"
+}
