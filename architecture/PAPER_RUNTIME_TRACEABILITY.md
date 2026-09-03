@@ -1,0 +1,12 @@
+AOMS Paper-Runtime Traceability
+Foundational propositionPaper statusv1 evidencePhase II requirement
+Authorization does not imply execution permissionCanonicalDemonstrated by 100 decline casesPreserve
+Authority conditions must be reconstructedCanonicalApproximated through current-state comparisonImplement explicit reconstruction
+Execution must fail closedCanonicalBinary decline on detected violationsProve compositionally
+Pipeline stages cannot be bypassedCanonicalNot structurally enforced as six enginesEnforce orchestration order
+Downstream objects cannot replace upstream objectsCanonicalObjects not separately representedEnforce typed interfaces
+Decisions must be condition-sensitiveCanonicalDemonstrated by altered current stateAdd paired trajectory tests
+ALLOW requires positive eligibilityCanonicalSimplified Boolean implementationImplement EligibilityRecord
+Unknown state cannot produce ALLOWCanonicalPartialAdd unknown-state semantics
+Permission cannot be cached across execution pointsCanonicalNot testedAdd non-cacheability tests
+ALLOW carries complete provenanceCanonicalNot completely representedAdd integrity-linked chain

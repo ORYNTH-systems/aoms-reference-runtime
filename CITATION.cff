@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use AOMS, cite the foundational publication and the software record."
+title: "Adaptive Orchestration Management System Reference Runtime"
+type: software
+authors:
+
+family-names: "Harris"
+given-names: "Ashley S."
+version: "1.0.0"
+date-released: "2026-06-22"
+repository-code: "https://github.com/ORYNTH-systems/aoms-reference-runtime"
+url: "https://github.com/ORYNTH-systems/aoms-reference-runtime"
+identifiers:
+type: doi
+value: "10.5281/zenodo.20819505"
+description: "AOMS software record"
+type: doi
+value: "10.5281/zenodo.20673754"
+description: "Foundational AOMS publication"
+license: "NOASSERTION"
+abstract: "A deterministic reference runtime and evidence corpus for reconstruction-governed execution eligibility determination."
+keywords:
+execution governance
+reconstruction-governed execution
+execution eligibility
+authority reconstruction
+autonomous agents
+fail-closed systems
