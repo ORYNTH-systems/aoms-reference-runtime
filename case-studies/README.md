@@ -1,18 +1,15 @@
-AOMS Case-Study Program
+# AOMS Case-Study Program
 
 Case studies translate reported or modeled execution events into AOMS state objects and decision paths.
 
-Every current-event case study must separate:
-
-authoritative source material;
-confirmed reported facts;
-unknown or unavailable facts;
-explicit modeling assumptions;
-reconstructed authority conditions;
-continuity findings;
-boundary findings;
-reconciliation findings;
-modeled eligibility;
-counterfactual intervention point.
+## Required Evidentiary Separation
+- Authoritative source material
+- Confirmed reported facts
+- Unknown or unavailable facts
+- Explicit modeling assumptions
+- Reconstructed authority conditions
+- Continuity, boundary, and reconciliation findings
+- Modeled eligibility
+- Counterfactual intervention point
 
 AOMS case studies must not convert allegations, incomplete reporting, or modeling assumptions into factual findings.
