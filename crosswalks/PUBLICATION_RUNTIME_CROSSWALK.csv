@@ -1,0 +1,11 @@
+publication_id,claim_family,runtime_artifact,verification_artifact,status
+AOMS-002,reconstruction_operator,src/canonical/pipeline.py,tests/test_canonical_runtime.py,IMPLEMENTED
+AOMS-002,terminal_decision_function,src/canonical/engines.py,tests/test_canonical_case_suite.py,IMPLEMENTED
+AOMS-002,fresh_execution_identity,src/canonical/models.py,tests/test_canonical_runtime.py,VERIFIED
+AOMS-003,canonical_corpus,cases/canonical,tests/test_canonical_case_suite.py,VERIFIED
+AOMS-003,fault_injection,src/conformance.py,tests/test_conformance.py,VERIFIED
+AOMS-003,legacy_equivalence,cases,tests/test_canonical_runtime.py,VERIFIED
+AOMS-004,authority_interface,src/canonical/models.py,specifications/AOMS-SPEC-001_CANONICAL_RUNTIME.md,IMPLEMENTED
+AOMS-004,eligibility_layer,src/canonical/pipeline.py,reports/conformance/BATCH_04_CONFORMANCE.json,VERIFIED
+AOMS-SPEC-003,state_transition_algebra,src/canonical/pipeline.py,tests/test_canonical_case_suite.py,VERIFIED
+AOMS-SPEC-004,evidence_provenance,src/canonical/models.py,tests/test_conformance.py,VERIFIED

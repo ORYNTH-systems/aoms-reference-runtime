@@ -1,0 +1,11 @@
+claim_id,publication_id,claim,artifact,status
+AOMS-CLM-001,AOMS-002,Capability does not establish authority,registries/AOMS-RG-005_INVARIANT_REGISTRY.md,CANONICAL
+AOMS-CLM-002,AOMS-002,Eligibility is reconstructed at effect time,src/canonical/pipeline.py,IMPLEMENTED
+AOMS-CLM-003,AOMS-002,Every retry requires a fresh execution identity,tests/test_canonical_runtime.py,VERIFIED
+AOMS-CLM-004,AOMS-003,No evaluator failure may produce ALLOW,tests/test_conformance.py,VERIFIED
+AOMS-CLM-005,AOMS-003,Canonical corpus coverage is exact,tests/test_canonical_case_suite.py,VERIFIED
+AOMS-CLM-006,AOMS-004,AOMS is the reconstruction and eligibility layer,architecture/PHASE_II_ARCHITECTURE_MANIFEST.md,CANONICAL
+AOMS-CLM-007,AOMS-SPEC-003,Unknown mandatory state cannot satisfy an affirmative predicate,src/canonical/engines.py,IMPLEMENTED
+AOMS-CLM-008,AOMS-SPEC-004,Evidence is distinct from authority,specifications/AOMS-SPEC-004_EVIDENCE_AND_PROVENANCE.md,CANONICAL
+AOMS-CLM-009,AOMS-SPEC-004,A historical decision is not reusable authority,tests/test_canonical_runtime.py,VERIFIED
+AOMS-CLM-010,AOMS-004,Adjacent layers cannot override a non-ALLOW decision,publications/AOMS-004_EXECUTION_GOVERNANCE_STACK.md,NORMATIVE
