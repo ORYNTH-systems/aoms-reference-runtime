@@ -1,0 +1,11 @@
+obligation_id,claim,discharge_evidence,result
+AOMS-PO-001,Authorized continuous execution can ALLOW,cases/canonical/AOMS-101.json,DISCHARGED
+AOMS-PO-002,Invalid authority cannot ALLOW,cases/canonical/AOMS-126.json,DISCHARGED
+AOMS-PO-003,Expired authority requires reauthorization,cases/canonical/AOMS-128.json,DISCHARGED
+AOMS-PO-004,Dependency discontinuity denies execution,cases/canonical/AOMS-201.json,DISCHARGED
+AOMS-PO-005,Personal boundary triggers escalation,cases/canonical/AOMS-276.json,DISCHARGED
+AOMS-PO-006,Unknown boundary fails to autonomous execution,cases/canonical/AOMS-280.json,DISCHARGED
+AOMS-PO-007,Runtime exception fails closed,tests/test_conformance.py,DISCHARGED
+AOMS-PO-008,Terminal decisions are not cached,tests/test_canonical_case_suite.py,DISCHARGED
+AOMS-PO-009,Provenance reaches the terminal record,reports/conformance/BATCH_04_CONFORMANCE.json,DISCHARGED
+AOMS-PO-010,Legacy behavior is preserved,tests/test_canonical_runtime.py,DISCHARGED

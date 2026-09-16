@@ -1,0 +1,14 @@
+{
+  "case_count": 250,
+  "checks": {
+    "all_cases_pass": true,
+    "case_count_250": true,
+    "complete_provenance": true,
+    "decision_distribution": true,
+    "eligibility_proof_complete": true,
+    "fresh_execution_identity": true,
+    "terminal_decisions": true
+  },
+  "passed": true,
+  "profile": "AOMS-CONF-001"
+}

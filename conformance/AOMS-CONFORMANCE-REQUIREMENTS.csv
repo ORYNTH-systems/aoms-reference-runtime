@@ -1,0 +1,16 @@
+requirement_id,category,normative_requirement,evidence,status
+AOMS-CR-001,PIPELINE,Every attempt executes the six-stage ordered pipeline,src/canonical/pipeline.py,VERIFIED
+AOMS-CR-002,AUTHORITY,Capability does not establish authority,src/canonical/engines.py,VERIFIED
+AOMS-CR-003,DECISION,Only the decision engine emits a terminal decision,src/canonical/engines.py,VERIFIED
+AOMS-CR-004,FAIL-CLOSED,Runtime faults produce terminal DENY,tests/test_conformance.py,VERIFIED
+AOMS-CR-005,FRESHNESS,Every evaluation receives a fresh execution identity,tests/test_canonical_case_suite.py,VERIFIED
+AOMS-CR-006,PROVENANCE,Every terminal decision binds decision provenance,reports/conformance/BATCH_04_CONFORMANCE.json,VERIFIED
+AOMS-CR-007,BOUNDARY,Personal boundaries escalate,cases/canonical/AOMS-276.json,VERIFIED
+AOMS-CR-008,BOUNDARY,Psychological boundaries escalate,cases/canonical/AOMS-277.json,VERIFIED
+AOMS-CR-009,BOUNDARY,Therapeutic boundaries escalate,cases/canonical/AOMS-278.json,VERIFIED
+AOMS-CR-010,BOUNDARY,Safety boundaries escalate,cases/canonical/AOMS-279.json,VERIFIED
+AOMS-CR-011,BOUNDARY,Unknown boundaries escalate,cases/canonical/AOMS-280.json,VERIFIED
+AOMS-CR-012,COMPATIBILITY,All 100 v1 outcomes remain equivalent,tests/test_canonical_runtime.py,VERIFIED
+AOMS-CR-013,CORPUS,The canonical suite contains exactly 250 cases,tests/test_canonical_case_suite.py,VERIFIED
+AOMS-CR-014,COVERAGE,All four terminal decisions are represented,reports/conformance/BATCH_04_CONFORMANCE.json,VERIFIED
+AOMS-CR-015,REPRODUCIBILITY,Case generation is deterministic,tools/generate_canonical_cases.py,VERIFIED
