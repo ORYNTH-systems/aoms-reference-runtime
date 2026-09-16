@@ -1,0 +1,20 @@
+{
+  "decision_counts": {
+    "ALLOW": 15,
+    "DENY": 15,
+    "ESCALATE": 15,
+    "REAUTHORIZE": 15
+  },
+  "domain_counts": {
+    "AI_AGENTS": 10,
+    "CIVIC_SYSTEMS": 10,
+    "EMERGENCY_RESPONSE": 10,
+    "FINANCE": 10,
+    "HEALTHCARE": 10,
+    "ROBOTICS": 10
+  },
+  "errors": [],
+  "passed": true,
+  "profile": "AOMS-BENCH-001",
+  "scenario_count": 60
+}

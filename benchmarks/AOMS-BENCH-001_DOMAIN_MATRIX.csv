@@ -1,0 +1,61 @@
+scenario_id,domain,effect_class,trigger,expected_decision,reason_code,engine_focus,proof_obligation,status
+AOMS-B06-001,AI_AGENTS,tool invocation,principal continuity verified and current,ALLOW,all_predicates_satisfied,eligibility,PO-TERMINALITY,DESIGN-VALIDATED
+AOMS-B06-002,AI_AGENTS,credential use,delegation scope failed,DENY,dependency_or_validity_failure,dependency,PO-FAIL-CLOSED,DESIGN-VALIDATED
+AOMS-B06-003,AI_AGENTS,delegated action,tool authority unresolved or protected,ESCALATE,protected_or_unknown_boundary,boundary,PO-BOUNDARY,DESIGN-VALIDATED
+AOMS-B06-004,AI_AGENTS,external communication,boundary identity changed after authorization,REAUTHORIZE,authority_not_current,authority,PO-CURRENT-AUTHORITY,DESIGN-VALIDATED
+AOMS-B06-005,AI_AGENTS,memory mutation,effect-time policy verified and current,ALLOW,all_predicates_satisfied,eligibility,PO-TERMINALITY,DESIGN-VALIDATED
+AOMS-B06-006,AI_AGENTS,tool invocation,principal continuity failed,DENY,dependency_or_validity_failure,dependency,PO-FAIL-CLOSED,DESIGN-VALIDATED
+AOMS-B06-007,AI_AGENTS,credential use,delegation scope unresolved or protected,ESCALATE,protected_or_unknown_boundary,boundary,PO-BOUNDARY,DESIGN-VALIDATED
+AOMS-B06-008,AI_AGENTS,delegated action,tool authority changed after authorization,REAUTHORIZE,authority_not_current,authority,PO-CURRENT-AUTHORITY,DESIGN-VALIDATED
+AOMS-B06-009,AI_AGENTS,external communication,boundary identity verified and current,ALLOW,all_predicates_satisfied,eligibility,PO-TERMINALITY,DESIGN-VALIDATED
+AOMS-B06-010,AI_AGENTS,memory mutation,effect-time policy failed,DENY,dependency_or_validity_failure,dependency,PO-FAIL-CLOSED,DESIGN-VALIDATED
+AOMS-B06-011,FINANCE,payment initiation,signing authority unresolved or protected,ESCALATE,protected_or_unknown_boundary,boundary,PO-BOUNDARY,DESIGN-VALIDATED
+AOMS-B06-012,FINANCE,settlement,value limit changed after authorization,REAUTHORIZE,authority_not_current,authority,PO-CURRENT-AUTHORITY,DESIGN-VALIDATED
+AOMS-B06-013,FINANCE,asset transfer,counterparty state verified and current,ALLOW,all_predicates_satisfied,eligibility,PO-TERMINALITY,DESIGN-VALIDATED
+AOMS-B06-014,FINANCE,reversal,settlement dependency failed,DENY,dependency_or_validity_failure,dependency,PO-FAIL-CLOSED,DESIGN-VALIDATED
+AOMS-B06-015,FINANCE,account mutation,evidence finality unresolved or protected,ESCALATE,protected_or_unknown_boundary,boundary,PO-BOUNDARY,DESIGN-VALIDATED
+AOMS-B06-016,FINANCE,payment initiation,signing authority changed after authorization,REAUTHORIZE,authority_not_current,authority,PO-CURRENT-AUTHORITY,DESIGN-VALIDATED
+AOMS-B06-017,FINANCE,settlement,value limit verified and current,ALLOW,all_predicates_satisfied,eligibility,PO-TERMINALITY,DESIGN-VALIDATED
+AOMS-B06-018,FINANCE,asset transfer,counterparty state failed,DENY,dependency_or_validity_failure,dependency,PO-FAIL-CLOSED,DESIGN-VALIDATED
+AOMS-B06-019,FINANCE,reversal,settlement dependency unresolved or protected,ESCALATE,protected_or_unknown_boundary,boundary,PO-BOUNDARY,DESIGN-VALIDATED
+AOMS-B06-020,FINANCE,account mutation,evidence finality changed after authorization,REAUTHORIZE,authority_not_current,authority,PO-CURRENT-AUTHORITY,DESIGN-VALIDATED
+AOMS-B06-021,HEALTHCARE,clinical recommendation,licensed authority verified and current,ALLOW,all_predicates_satisfied,eligibility,PO-TERMINALITY,DESIGN-VALIDATED
+AOMS-B06-022,HEALTHCARE,record mutation,patient identity failed,DENY,dependency_or_validity_failure,dependency,PO-FAIL-CLOSED,DESIGN-VALIDATED
+AOMS-B06-023,HEALTHCARE,treatment scheduling,consent scope unresolved or protected,ESCALATE,protected_or_unknown_boundary,boundary,PO-BOUNDARY,DESIGN-VALIDATED
+AOMS-B06-024,HEALTHCARE,medication action,clinical dependency changed after authorization,REAUTHORIZE,authority_not_current,authority,PO-CURRENT-AUTHORITY,DESIGN-VALIDATED
+AOMS-B06-025,HEALTHCARE,data disclosure,protected boundary verified and current,ALLOW,all_predicates_satisfied,eligibility,PO-TERMINALITY,DESIGN-VALIDATED
+AOMS-B06-026,HEALTHCARE,clinical recommendation,licensed authority failed,DENY,dependency_or_validity_failure,dependency,PO-FAIL-CLOSED,DESIGN-VALIDATED
+AOMS-B06-027,HEALTHCARE,record mutation,patient identity unresolved or protected,ESCALATE,protected_or_unknown_boundary,boundary,PO-BOUNDARY,DESIGN-VALIDATED
+AOMS-B06-028,HEALTHCARE,treatment scheduling,consent scope changed after authorization,REAUTHORIZE,authority_not_current,authority,PO-CURRENT-AUTHORITY,DESIGN-VALIDATED
+AOMS-B06-029,HEALTHCARE,medication action,clinical dependency verified and current,ALLOW,all_predicates_satisfied,eligibility,PO-TERMINALITY,DESIGN-VALIDATED
+AOMS-B06-030,HEALTHCARE,data disclosure,protected boundary failed,DENY,dependency_or_validity_failure,dependency,PO-FAIL-CLOSED,DESIGN-VALIDATED
+AOMS-B06-031,ROBOTICS,motion command,operator authority unresolved or protected,ESCALATE,protected_or_unknown_boundary,boundary,PO-BOUNDARY,DESIGN-VALIDATED
+AOMS-B06-032,ROBOTICS,actuator control,command continuity changed after authorization,REAUTHORIZE,authority_not_current,authority,PO-CURRENT-AUTHORITY,DESIGN-VALIDATED
+AOMS-B06-033,ROBOTICS,workspace entry,safety envelope verified and current,ALLOW,all_predicates_satisfied,eligibility,PO-TERMINALITY,DESIGN-VALIDATED
+AOMS-B06-034,ROBOTICS,payload handling,sensor dependency failed,DENY,dependency_or_validity_failure,dependency,PO-FAIL-CLOSED,DESIGN-VALIDATED
+AOMS-B06-035,ROBOTICS,emergency stop,physical boundary unresolved or protected,ESCALATE,protected_or_unknown_boundary,boundary,PO-BOUNDARY,DESIGN-VALIDATED
+AOMS-B06-036,ROBOTICS,motion command,operator authority changed after authorization,REAUTHORIZE,authority_not_current,authority,PO-CURRENT-AUTHORITY,DESIGN-VALIDATED
+AOMS-B06-037,ROBOTICS,actuator control,command continuity verified and current,ALLOW,all_predicates_satisfied,eligibility,PO-TERMINALITY,DESIGN-VALIDATED
+AOMS-B06-038,ROBOTICS,workspace entry,safety envelope failed,DENY,dependency_or_validity_failure,dependency,PO-FAIL-CLOSED,DESIGN-VALIDATED
+AOMS-B06-039,ROBOTICS,payload handling,sensor dependency unresolved or protected,ESCALATE,protected_or_unknown_boundary,boundary,PO-BOUNDARY,DESIGN-VALIDATED
+AOMS-B06-040,ROBOTICS,emergency stop,physical boundary changed after authorization,REAUTHORIZE,authority_not_current,authority,PO-CURRENT-AUTHORITY,DESIGN-VALIDATED
+AOMS-B06-041,CIVIC_SYSTEMS,registration update,official authority verified and current,ALLOW,all_predicates_satisfied,eligibility,PO-TERMINALITY,DESIGN-VALIDATED
+AOMS-B06-042,CIVIC_SYSTEMS,ballot workflow,constitutional scope failed,DENY,dependency_or_validity_failure,dependency,PO-FAIL-CLOSED,DESIGN-VALIDATED
+AOMS-B06-043,CIVIC_SYSTEMS,tabulation action,chain continuity unresolved or protected,ESCALATE,protected_or_unknown_boundary,boundary,PO-BOUNDARY,DESIGN-VALIDATED
+AOMS-B06-044,CIVIC_SYSTEMS,certification step,source integrity changed after authorization,REAUTHORIZE,authority_not_current,authority,PO-CURRENT-AUTHORITY,DESIGN-VALIDATED
+AOMS-B06-045,CIVIC_SYSTEMS,public-record release,finality evidence verified and current,ALLOW,all_predicates_satisfied,eligibility,PO-TERMINALITY,DESIGN-VALIDATED
+AOMS-B06-046,CIVIC_SYSTEMS,registration update,official authority failed,DENY,dependency_or_validity_failure,dependency,PO-FAIL-CLOSED,DESIGN-VALIDATED
+AOMS-B06-047,CIVIC_SYSTEMS,ballot workflow,constitutional scope unresolved or protected,ESCALATE,protected_or_unknown_boundary,boundary,PO-BOUNDARY,DESIGN-VALIDATED
+AOMS-B06-048,CIVIC_SYSTEMS,tabulation action,chain continuity changed after authorization,REAUTHORIZE,authority_not_current,authority,PO-CURRENT-AUTHORITY,DESIGN-VALIDATED
+AOMS-B06-049,CIVIC_SYSTEMS,certification step,source integrity verified and current,ALLOW,all_predicates_satisfied,eligibility,PO-TERMINALITY,DESIGN-VALIDATED
+AOMS-B06-050,CIVIC_SYSTEMS,public-record release,finality evidence failed,DENY,dependency_or_validity_failure,dependency,PO-FAIL-CLOSED,DESIGN-VALIDATED
+AOMS-B06-051,EMERGENCY_RESPONSE,dispatch,incident authority unresolved or protected,ESCALATE,protected_or_unknown_boundary,boundary,PO-BOUNDARY,DESIGN-VALIDATED
+AOMS-B06-052,EMERGENCY_RESPONSE,resource allocation,temporal validity changed after authorization,REAUTHORIZE,authority_not_current,authority,PO-CURRENT-AUTHORITY,DESIGN-VALIDATED
+AOMS-B06-053,EMERGENCY_RESPONSE,evacuation notice,jurisdiction verified and current,ALLOW,all_predicates_satisfied,eligibility,PO-TERMINALITY,DESIGN-VALIDATED
+AOMS-B06-054,EMERGENCY_RESPONSE,priority override,resource dependency failed,DENY,dependency_or_validity_failure,dependency,PO-FAIL-CLOSED,DESIGN-VALIDATED
+AOMS-B06-055,EMERGENCY_RESPONSE,interagency handoff,handoff provenance unresolved or protected,ESCALATE,protected_or_unknown_boundary,boundary,PO-BOUNDARY,DESIGN-VALIDATED
+AOMS-B06-056,EMERGENCY_RESPONSE,dispatch,incident authority changed after authorization,REAUTHORIZE,authority_not_current,authority,PO-CURRENT-AUTHORITY,DESIGN-VALIDATED
+AOMS-B06-057,EMERGENCY_RESPONSE,resource allocation,temporal validity verified and current,ALLOW,all_predicates_satisfied,eligibility,PO-TERMINALITY,DESIGN-VALIDATED
+AOMS-B06-058,EMERGENCY_RESPONSE,evacuation notice,jurisdiction failed,DENY,dependency_or_validity_failure,dependency,PO-FAIL-CLOSED,DESIGN-VALIDATED
+AOMS-B06-059,EMERGENCY_RESPONSE,priority override,resource dependency unresolved or protected,ESCALATE,protected_or_unknown_boundary,boundary,PO-BOUNDARY,DESIGN-VALIDATED
+AOMS-B06-060,EMERGENCY_RESPONSE,interagency handoff,handoff provenance changed after authorization,REAUTHORIZE,authority_not_current,authority,PO-CURRENT-AUTHORITY,DESIGN-VALIDATED
