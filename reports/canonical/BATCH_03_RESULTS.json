@@ -1,0 +1,3935 @@
+{
+  "case_count": 250,
+  "decision_counts": {
+    "ALLOW": 25,
+    "DENY": 75,
+    "ESCALATE": 75,
+    "REAUTHORIZE": 75
+  },
+  "failed": 0,
+  "passed": 250,
+  "results": [
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-101",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-01"
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-102",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-02"
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-103",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-03"
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-104",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-04"
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-105",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-05"
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-106",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-06"
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-107",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-07"
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-108",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-08"
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-109",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-09"
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-110",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-10"
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-111",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-11"
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-112",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-12"
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-113",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-13"
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-114",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-14"
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-115",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-15"
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-116",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-16"
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-117",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-17"
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-118",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-18"
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-119",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-19"
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-120",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-20"
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-121",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-21"
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-122",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-22"
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-123",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-23"
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-124",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-24"
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-125",
+      "expected_decision": "ALLOW",
+      "family": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [],
+      "terminal": true,
+      "variant": "continuous-authorized-state-25"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authority_invalid"
+      ],
+      "case_id": "AOMS-126",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authority_invalid"
+      ],
+      "terminal": true,
+      "variant": "artifact-authority-invalid"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authority_invalid"
+      ],
+      "case_id": "AOMS-127",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authority_invalid"
+      ],
+      "terminal": true,
+      "variant": "context-authority-invalid"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authorization_expired"
+      ],
+      "case_id": "AOMS-128",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authorization_expired"
+      ],
+      "terminal": true,
+      "variant": "authorization-expired"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "execution_too_early"
+      ],
+      "case_id": "AOMS-129",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "execution_too_early"
+      ],
+      "terminal": true,
+      "variant": "execution-too-early"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "actor_mismatch"
+      ],
+      "case_id": "AOMS-130",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "actor_mismatch"
+      ],
+      "terminal": true,
+      "variant": "actor-mismatch"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "action_drift_detected"
+      ],
+      "case_id": "AOMS-131",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "action_drift_detected"
+      ],
+      "terminal": true,
+      "variant": "action-drift"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "identity_continuity_failed"
+      ],
+      "case_id": "AOMS-132",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "identity_continuity_failed"
+      ],
+      "terminal": true,
+      "variant": "identity-discontinuity"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "policy_changed"
+      ],
+      "case_id": "AOMS-133",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "policy_changed"
+      ],
+      "terminal": true,
+      "variant": "policy-change"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authority_invalid"
+      ],
+      "case_id": "AOMS-134",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authority_invalid"
+      ],
+      "terminal": true,
+      "variant": "artifact-authority-invalid"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authority_invalid"
+      ],
+      "case_id": "AOMS-135",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authority_invalid"
+      ],
+      "terminal": true,
+      "variant": "context-authority-invalid"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authorization_expired"
+      ],
+      "case_id": "AOMS-136",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authorization_expired"
+      ],
+      "terminal": true,
+      "variant": "authorization-expired"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "execution_too_early"
+      ],
+      "case_id": "AOMS-137",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "execution_too_early"
+      ],
+      "terminal": true,
+      "variant": "execution-too-early"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "actor_mismatch"
+      ],
+      "case_id": "AOMS-138",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "actor_mismatch"
+      ],
+      "terminal": true,
+      "variant": "actor-mismatch"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "action_drift_detected"
+      ],
+      "case_id": "AOMS-139",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "action_drift_detected"
+      ],
+      "terminal": true,
+      "variant": "action-drift"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "identity_continuity_failed"
+      ],
+      "case_id": "AOMS-140",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "identity_continuity_failed"
+      ],
+      "terminal": true,
+      "variant": "identity-discontinuity"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "policy_changed"
+      ],
+      "case_id": "AOMS-141",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "policy_changed"
+      ],
+      "terminal": true,
+      "variant": "policy-change"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authority_invalid"
+      ],
+      "case_id": "AOMS-142",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authority_invalid"
+      ],
+      "terminal": true,
+      "variant": "artifact-authority-invalid"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authority_invalid"
+      ],
+      "case_id": "AOMS-143",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authority_invalid"
+      ],
+      "terminal": true,
+      "variant": "context-authority-invalid"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authorization_expired"
+      ],
+      "case_id": "AOMS-144",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authorization_expired"
+      ],
+      "terminal": true,
+      "variant": "authorization-expired"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "execution_too_early"
+      ],
+      "case_id": "AOMS-145",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "execution_too_early"
+      ],
+      "terminal": true,
+      "variant": "execution-too-early"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "actor_mismatch"
+      ],
+      "case_id": "AOMS-146",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "actor_mismatch"
+      ],
+      "terminal": true,
+      "variant": "actor-mismatch"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "action_drift_detected"
+      ],
+      "case_id": "AOMS-147",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "action_drift_detected"
+      ],
+      "terminal": true,
+      "variant": "action-drift"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "identity_continuity_failed"
+      ],
+      "case_id": "AOMS-148",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "identity_continuity_failed"
+      ],
+      "terminal": true,
+      "variant": "identity-discontinuity"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "policy_changed"
+      ],
+      "case_id": "AOMS-149",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "policy_changed"
+      ],
+      "terminal": true,
+      "variant": "policy-change"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authority_invalid"
+      ],
+      "case_id": "AOMS-150",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authority_invalid"
+      ],
+      "terminal": true,
+      "variant": "artifact-authority-invalid"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authority_invalid"
+      ],
+      "case_id": "AOMS-151",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authority_invalid"
+      ],
+      "terminal": true,
+      "variant": "context-authority-invalid"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authorization_expired"
+      ],
+      "case_id": "AOMS-152",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authorization_expired"
+      ],
+      "terminal": true,
+      "variant": "authorization-expired"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "execution_too_early"
+      ],
+      "case_id": "AOMS-153",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "execution_too_early"
+      ],
+      "terminal": true,
+      "variant": "execution-too-early"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "actor_mismatch"
+      ],
+      "case_id": "AOMS-154",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "actor_mismatch"
+      ],
+      "terminal": true,
+      "variant": "actor-mismatch"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "action_drift_detected"
+      ],
+      "case_id": "AOMS-155",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "action_drift_detected"
+      ],
+      "terminal": true,
+      "variant": "action-drift"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "identity_continuity_failed"
+      ],
+      "case_id": "AOMS-156",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "identity_continuity_failed"
+      ],
+      "terminal": true,
+      "variant": "identity-discontinuity"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "policy_changed"
+      ],
+      "case_id": "AOMS-157",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "policy_changed"
+      ],
+      "terminal": true,
+      "variant": "policy-change"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authority_invalid"
+      ],
+      "case_id": "AOMS-158",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authority_invalid"
+      ],
+      "terminal": true,
+      "variant": "artifact-authority-invalid"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authority_invalid"
+      ],
+      "case_id": "AOMS-159",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authority_invalid"
+      ],
+      "terminal": true,
+      "variant": "context-authority-invalid"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authorization_expired"
+      ],
+      "case_id": "AOMS-160",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authorization_expired"
+      ],
+      "terminal": true,
+      "variant": "authorization-expired"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "execution_too_early"
+      ],
+      "case_id": "AOMS-161",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "execution_too_early"
+      ],
+      "terminal": true,
+      "variant": "execution-too-early"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "actor_mismatch"
+      ],
+      "case_id": "AOMS-162",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "actor_mismatch"
+      ],
+      "terminal": true,
+      "variant": "actor-mismatch"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "action_drift_detected"
+      ],
+      "case_id": "AOMS-163",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "action_drift_detected"
+      ],
+      "terminal": true,
+      "variant": "action-drift"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "identity_continuity_failed"
+      ],
+      "case_id": "AOMS-164",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "identity_continuity_failed"
+      ],
+      "terminal": true,
+      "variant": "identity-discontinuity"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "policy_changed"
+      ],
+      "case_id": "AOMS-165",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "policy_changed"
+      ],
+      "terminal": true,
+      "variant": "policy-change"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authority_invalid"
+      ],
+      "case_id": "AOMS-166",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authority_invalid"
+      ],
+      "terminal": true,
+      "variant": "artifact-authority-invalid"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authority_invalid"
+      ],
+      "case_id": "AOMS-167",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authority_invalid"
+      ],
+      "terminal": true,
+      "variant": "context-authority-invalid"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authorization_expired"
+      ],
+      "case_id": "AOMS-168",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authorization_expired"
+      ],
+      "terminal": true,
+      "variant": "authorization-expired"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "execution_too_early"
+      ],
+      "case_id": "AOMS-169",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "execution_too_early"
+      ],
+      "terminal": true,
+      "variant": "execution-too-early"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "actor_mismatch"
+      ],
+      "case_id": "AOMS-170",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "actor_mismatch"
+      ],
+      "terminal": true,
+      "variant": "actor-mismatch"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "action_drift_detected"
+      ],
+      "case_id": "AOMS-171",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "action_drift_detected"
+      ],
+      "terminal": true,
+      "variant": "action-drift"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "identity_continuity_failed"
+      ],
+      "case_id": "AOMS-172",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "identity_continuity_failed"
+      ],
+      "terminal": true,
+      "variant": "identity-discontinuity"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "policy_changed"
+      ],
+      "case_id": "AOMS-173",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "policy_changed"
+      ],
+      "terminal": true,
+      "variant": "policy-change"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authority_invalid"
+      ],
+      "case_id": "AOMS-174",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authority_invalid"
+      ],
+      "terminal": true,
+      "variant": "artifact-authority-invalid"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authority_invalid"
+      ],
+      "case_id": "AOMS-175",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authority_invalid"
+      ],
+      "terminal": true,
+      "variant": "context-authority-invalid"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authorization_expired"
+      ],
+      "case_id": "AOMS-176",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authorization_expired"
+      ],
+      "terminal": true,
+      "variant": "authorization-expired"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "execution_too_early"
+      ],
+      "case_id": "AOMS-177",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "execution_too_early"
+      ],
+      "terminal": true,
+      "variant": "execution-too-early"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "actor_mismatch"
+      ],
+      "case_id": "AOMS-178",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "actor_mismatch"
+      ],
+      "terminal": true,
+      "variant": "actor-mismatch"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "action_drift_detected"
+      ],
+      "case_id": "AOMS-179",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "action_drift_detected"
+      ],
+      "terminal": true,
+      "variant": "action-drift"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "identity_continuity_failed"
+      ],
+      "case_id": "AOMS-180",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "identity_continuity_failed"
+      ],
+      "terminal": true,
+      "variant": "identity-discontinuity"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "policy_changed"
+      ],
+      "case_id": "AOMS-181",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "policy_changed"
+      ],
+      "terminal": true,
+      "variant": "policy-change"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authority_invalid"
+      ],
+      "case_id": "AOMS-182",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authority_invalid"
+      ],
+      "terminal": true,
+      "variant": "artifact-authority-invalid"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authority_invalid"
+      ],
+      "case_id": "AOMS-183",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authority_invalid"
+      ],
+      "terminal": true,
+      "variant": "context-authority-invalid"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authorization_expired"
+      ],
+      "case_id": "AOMS-184",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authorization_expired"
+      ],
+      "terminal": true,
+      "variant": "authorization-expired"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "execution_too_early"
+      ],
+      "case_id": "AOMS-185",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "execution_too_early"
+      ],
+      "terminal": true,
+      "variant": "execution-too-early"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "actor_mismatch"
+      ],
+      "case_id": "AOMS-186",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "actor_mismatch"
+      ],
+      "terminal": true,
+      "variant": "actor-mismatch"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "action_drift_detected"
+      ],
+      "case_id": "AOMS-187",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "action_drift_detected"
+      ],
+      "terminal": true,
+      "variant": "action-drift"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "identity_continuity_failed"
+      ],
+      "case_id": "AOMS-188",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "identity_continuity_failed"
+      ],
+      "terminal": true,
+      "variant": "identity-discontinuity"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "policy_changed"
+      ],
+      "case_id": "AOMS-189",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "policy_changed"
+      ],
+      "terminal": true,
+      "variant": "policy-change"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authority_invalid"
+      ],
+      "case_id": "AOMS-190",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authority_invalid"
+      ],
+      "terminal": true,
+      "variant": "artifact-authority-invalid"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authority_invalid"
+      ],
+      "case_id": "AOMS-191",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authority_invalid"
+      ],
+      "terminal": true,
+      "variant": "context-authority-invalid"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authorization_expired"
+      ],
+      "case_id": "AOMS-192",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authorization_expired"
+      ],
+      "terminal": true,
+      "variant": "authorization-expired"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "execution_too_early"
+      ],
+      "case_id": "AOMS-193",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "execution_too_early"
+      ],
+      "terminal": true,
+      "variant": "execution-too-early"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "actor_mismatch"
+      ],
+      "case_id": "AOMS-194",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "actor_mismatch"
+      ],
+      "terminal": true,
+      "variant": "actor-mismatch"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "action_drift_detected"
+      ],
+      "case_id": "AOMS-195",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "action_drift_detected"
+      ],
+      "terminal": true,
+      "variant": "action-drift"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "identity_continuity_failed"
+      ],
+      "case_id": "AOMS-196",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "identity_continuity_failed"
+      ],
+      "terminal": true,
+      "variant": "identity-discontinuity"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "policy_changed"
+      ],
+      "case_id": "AOMS-197",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "policy_changed"
+      ],
+      "terminal": true,
+      "variant": "policy-change"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authority_invalid"
+      ],
+      "case_id": "AOMS-198",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authority_invalid"
+      ],
+      "terminal": true,
+      "variant": "artifact-authority-invalid"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authority_invalid"
+      ],
+      "case_id": "AOMS-199",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authority_invalid"
+      ],
+      "terminal": true,
+      "variant": "context-authority-invalid"
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authorization_expired"
+      ],
+      "case_id": "AOMS-200",
+      "expected_decision": "REAUTHORIZE",
+      "family": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "authorization_expired"
+      ],
+      "terminal": true,
+      "variant": "authorization-expired"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "dependency_state_changed"
+      ],
+      "case_id": "AOMS-201",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "dependency_state_changed"
+      ],
+      "terminal": true,
+      "variant": "dependency-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "resource_unavailable"
+      ],
+      "case_id": "AOMS-202",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "resource_unavailable"
+      ],
+      "terminal": true,
+      "variant": "resource-loss"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "environment_invalid"
+      ],
+      "case_id": "AOMS-203",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "environment_invalid"
+      ],
+      "terminal": true,
+      "variant": "environment-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "evidence_insufficient"
+      ],
+      "case_id": "AOMS-204",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "evidence_insufficient"
+      ],
+      "terminal": true,
+      "variant": "evidence-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:operational"
+      ],
+      "case_id": "AOMS-205",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:operational"
+      ],
+      "terminal": true,
+      "variant": "operational-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:authority"
+      ],
+      "case_id": "AOMS-206",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:authority"
+      ],
+      "terminal": true,
+      "variant": "authority-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:identity"
+      ],
+      "case_id": "AOMS-207",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:identity"
+      ],
+      "terminal": true,
+      "variant": "identity-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "dependency_state_changed"
+      ],
+      "case_id": "AOMS-208",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "dependency_state_changed"
+      ],
+      "terminal": true,
+      "variant": "dependency-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "resource_unavailable"
+      ],
+      "case_id": "AOMS-209",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "resource_unavailable"
+      ],
+      "terminal": true,
+      "variant": "resource-loss"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "environment_invalid"
+      ],
+      "case_id": "AOMS-210",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "environment_invalid"
+      ],
+      "terminal": true,
+      "variant": "environment-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "evidence_insufficient"
+      ],
+      "case_id": "AOMS-211",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "evidence_insufficient"
+      ],
+      "terminal": true,
+      "variant": "evidence-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:operational"
+      ],
+      "case_id": "AOMS-212",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:operational"
+      ],
+      "terminal": true,
+      "variant": "operational-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:authority"
+      ],
+      "case_id": "AOMS-213",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:authority"
+      ],
+      "terminal": true,
+      "variant": "authority-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:identity"
+      ],
+      "case_id": "AOMS-214",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:identity"
+      ],
+      "terminal": true,
+      "variant": "identity-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "dependency_state_changed"
+      ],
+      "case_id": "AOMS-215",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "dependency_state_changed"
+      ],
+      "terminal": true,
+      "variant": "dependency-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "resource_unavailable"
+      ],
+      "case_id": "AOMS-216",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "resource_unavailable"
+      ],
+      "terminal": true,
+      "variant": "resource-loss"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "environment_invalid"
+      ],
+      "case_id": "AOMS-217",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "environment_invalid"
+      ],
+      "terminal": true,
+      "variant": "environment-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "evidence_insufficient"
+      ],
+      "case_id": "AOMS-218",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "evidence_insufficient"
+      ],
+      "terminal": true,
+      "variant": "evidence-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:operational"
+      ],
+      "case_id": "AOMS-219",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:operational"
+      ],
+      "terminal": true,
+      "variant": "operational-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:authority"
+      ],
+      "case_id": "AOMS-220",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:authority"
+      ],
+      "terminal": true,
+      "variant": "authority-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:identity"
+      ],
+      "case_id": "AOMS-221",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:identity"
+      ],
+      "terminal": true,
+      "variant": "identity-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "dependency_state_changed"
+      ],
+      "case_id": "AOMS-222",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "dependency_state_changed"
+      ],
+      "terminal": true,
+      "variant": "dependency-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "resource_unavailable"
+      ],
+      "case_id": "AOMS-223",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "resource_unavailable"
+      ],
+      "terminal": true,
+      "variant": "resource-loss"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "environment_invalid"
+      ],
+      "case_id": "AOMS-224",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "environment_invalid"
+      ],
+      "terminal": true,
+      "variant": "environment-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "evidence_insufficient"
+      ],
+      "case_id": "AOMS-225",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "evidence_insufficient"
+      ],
+      "terminal": true,
+      "variant": "evidence-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:operational"
+      ],
+      "case_id": "AOMS-226",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:operational"
+      ],
+      "terminal": true,
+      "variant": "operational-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:authority"
+      ],
+      "case_id": "AOMS-227",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:authority"
+      ],
+      "terminal": true,
+      "variant": "authority-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:identity"
+      ],
+      "case_id": "AOMS-228",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:identity"
+      ],
+      "terminal": true,
+      "variant": "identity-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "dependency_state_changed"
+      ],
+      "case_id": "AOMS-229",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "dependency_state_changed"
+      ],
+      "terminal": true,
+      "variant": "dependency-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "resource_unavailable"
+      ],
+      "case_id": "AOMS-230",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "resource_unavailable"
+      ],
+      "terminal": true,
+      "variant": "resource-loss"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "environment_invalid"
+      ],
+      "case_id": "AOMS-231",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "environment_invalid"
+      ],
+      "terminal": true,
+      "variant": "environment-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "evidence_insufficient"
+      ],
+      "case_id": "AOMS-232",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "evidence_insufficient"
+      ],
+      "terminal": true,
+      "variant": "evidence-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:operational"
+      ],
+      "case_id": "AOMS-233",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:operational"
+      ],
+      "terminal": true,
+      "variant": "operational-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:authority"
+      ],
+      "case_id": "AOMS-234",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:authority"
+      ],
+      "terminal": true,
+      "variant": "authority-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:identity"
+      ],
+      "case_id": "AOMS-235",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:identity"
+      ],
+      "terminal": true,
+      "variant": "identity-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "dependency_state_changed"
+      ],
+      "case_id": "AOMS-236",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "dependency_state_changed"
+      ],
+      "terminal": true,
+      "variant": "dependency-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "resource_unavailable"
+      ],
+      "case_id": "AOMS-237",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "resource_unavailable"
+      ],
+      "terminal": true,
+      "variant": "resource-loss"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "environment_invalid"
+      ],
+      "case_id": "AOMS-238",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "environment_invalid"
+      ],
+      "terminal": true,
+      "variant": "environment-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "evidence_insufficient"
+      ],
+      "case_id": "AOMS-239",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "evidence_insufficient"
+      ],
+      "terminal": true,
+      "variant": "evidence-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:operational"
+      ],
+      "case_id": "AOMS-240",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:operational"
+      ],
+      "terminal": true,
+      "variant": "operational-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:authority"
+      ],
+      "case_id": "AOMS-241",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:authority"
+      ],
+      "terminal": true,
+      "variant": "authority-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:identity"
+      ],
+      "case_id": "AOMS-242",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:identity"
+      ],
+      "terminal": true,
+      "variant": "identity-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "dependency_state_changed"
+      ],
+      "case_id": "AOMS-243",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "dependency_state_changed"
+      ],
+      "terminal": true,
+      "variant": "dependency-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "resource_unavailable"
+      ],
+      "case_id": "AOMS-244",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "resource_unavailable"
+      ],
+      "terminal": true,
+      "variant": "resource-loss"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "environment_invalid"
+      ],
+      "case_id": "AOMS-245",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "environment_invalid"
+      ],
+      "terminal": true,
+      "variant": "environment-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "evidence_insufficient"
+      ],
+      "case_id": "AOMS-246",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "evidence_insufficient"
+      ],
+      "terminal": true,
+      "variant": "evidence-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:operational"
+      ],
+      "case_id": "AOMS-247",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:operational"
+      ],
+      "terminal": true,
+      "variant": "operational-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:authority"
+      ],
+      "case_id": "AOMS-248",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:authority"
+      ],
+      "terminal": true,
+      "variant": "authority-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:identity"
+      ],
+      "case_id": "AOMS-249",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:identity"
+      ],
+      "terminal": true,
+      "variant": "identity-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "dependency_state_changed"
+      ],
+      "case_id": "AOMS-250",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "dependency_state_changed"
+      ],
+      "terminal": true,
+      "variant": "dependency-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "resource_unavailable"
+      ],
+      "case_id": "AOMS-251",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "resource_unavailable"
+      ],
+      "terminal": true,
+      "variant": "resource-loss"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "environment_invalid"
+      ],
+      "case_id": "AOMS-252",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "environment_invalid"
+      ],
+      "terminal": true,
+      "variant": "environment-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "evidence_insufficient"
+      ],
+      "case_id": "AOMS-253",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "evidence_insufficient"
+      ],
+      "terminal": true,
+      "variant": "evidence-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:operational"
+      ],
+      "case_id": "AOMS-254",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:operational"
+      ],
+      "terminal": true,
+      "variant": "operational-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:authority"
+      ],
+      "case_id": "AOMS-255",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:authority"
+      ],
+      "terminal": true,
+      "variant": "authority-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:identity"
+      ],
+      "case_id": "AOMS-256",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:identity"
+      ],
+      "terminal": true,
+      "variant": "identity-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "dependency_state_changed"
+      ],
+      "case_id": "AOMS-257",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "dependency_state_changed"
+      ],
+      "terminal": true,
+      "variant": "dependency-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "resource_unavailable"
+      ],
+      "case_id": "AOMS-258",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "resource_unavailable"
+      ],
+      "terminal": true,
+      "variant": "resource-loss"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "environment_invalid"
+      ],
+      "case_id": "AOMS-259",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "environment_invalid"
+      ],
+      "terminal": true,
+      "variant": "environment-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "evidence_insufficient"
+      ],
+      "case_id": "AOMS-260",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "evidence_insufficient"
+      ],
+      "terminal": true,
+      "variant": "evidence-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:operational"
+      ],
+      "case_id": "AOMS-261",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:operational"
+      ],
+      "terminal": true,
+      "variant": "operational-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:authority"
+      ],
+      "case_id": "AOMS-262",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:authority"
+      ],
+      "terminal": true,
+      "variant": "authority-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:identity"
+      ],
+      "case_id": "AOMS-263",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:identity"
+      ],
+      "terminal": true,
+      "variant": "identity-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "dependency_state_changed"
+      ],
+      "case_id": "AOMS-264",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "dependency_state_changed"
+      ],
+      "terminal": true,
+      "variant": "dependency-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "resource_unavailable"
+      ],
+      "case_id": "AOMS-265",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "resource_unavailable"
+      ],
+      "terminal": true,
+      "variant": "resource-loss"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "environment_invalid"
+      ],
+      "case_id": "AOMS-266",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "environment_invalid"
+      ],
+      "terminal": true,
+      "variant": "environment-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "evidence_insufficient"
+      ],
+      "case_id": "AOMS-267",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "evidence_insufficient"
+      ],
+      "terminal": true,
+      "variant": "evidence-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:operational"
+      ],
+      "case_id": "AOMS-268",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:operational"
+      ],
+      "terminal": true,
+      "variant": "operational-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:authority"
+      ],
+      "case_id": "AOMS-269",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:authority"
+      ],
+      "terminal": true,
+      "variant": "authority-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:identity"
+      ],
+      "case_id": "AOMS-270",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:identity"
+      ],
+      "terminal": true,
+      "variant": "identity-boundary"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "dependency_state_changed"
+      ],
+      "case_id": "AOMS-271",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "dependency_state_changed"
+      ],
+      "terminal": true,
+      "variant": "dependency-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "resource_unavailable"
+      ],
+      "case_id": "AOMS-272",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "resource_unavailable"
+      ],
+      "terminal": true,
+      "variant": "resource-loss"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "environment_invalid"
+      ],
+      "case_id": "AOMS-273",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "environment_invalid"
+      ],
+      "terminal": true,
+      "variant": "environment-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "evidence_insufficient"
+      ],
+      "case_id": "AOMS-274",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "evidence_insufficient"
+      ],
+      "terminal": true,
+      "variant": "evidence-change"
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "boundary_crossed:operational"
+      ],
+      "case_id": "AOMS-275",
+      "expected_decision": "DENY",
+      "family": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:operational"
+      ],
+      "terminal": true,
+      "variant": "operational-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "case_id": "AOMS-276",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "terminal": true,
+      "variant": "personal-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "case_id": "AOMS-277",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "terminal": true,
+      "variant": "psychological-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:therapeutic"
+      ],
+      "case_id": "AOMS-278",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:therapeutic"
+      ],
+      "terminal": true,
+      "variant": "therapeutic-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-279",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "terminal": true,
+      "variant": "safety-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:unknown"
+      ],
+      "case_id": "AOMS-280",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:unknown"
+      ],
+      "terminal": true,
+      "variant": "unknown-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:personal",
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-281",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "terminal": true,
+      "variant": "compound-personal-safety"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:psychological",
+        "boundary_crossed:therapeutic"
+      ],
+      "case_id": "AOMS-282",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "terminal": true,
+      "variant": "compound-therapeutic-psychological"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "case_id": "AOMS-283",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "terminal": true,
+      "variant": "personal-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "case_id": "AOMS-284",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "terminal": true,
+      "variant": "psychological-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:therapeutic"
+      ],
+      "case_id": "AOMS-285",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:therapeutic"
+      ],
+      "terminal": true,
+      "variant": "therapeutic-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-286",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "terminal": true,
+      "variant": "safety-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:unknown"
+      ],
+      "case_id": "AOMS-287",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:unknown"
+      ],
+      "terminal": true,
+      "variant": "unknown-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:personal",
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-288",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "terminal": true,
+      "variant": "compound-personal-safety"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:psychological",
+        "boundary_crossed:therapeutic"
+      ],
+      "case_id": "AOMS-289",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "terminal": true,
+      "variant": "compound-therapeutic-psychological"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "case_id": "AOMS-290",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "terminal": true,
+      "variant": "personal-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "case_id": "AOMS-291",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "terminal": true,
+      "variant": "psychological-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:therapeutic"
+      ],
+      "case_id": "AOMS-292",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:therapeutic"
+      ],
+      "terminal": true,
+      "variant": "therapeutic-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-293",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "terminal": true,
+      "variant": "safety-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:unknown"
+      ],
+      "case_id": "AOMS-294",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:unknown"
+      ],
+      "terminal": true,
+      "variant": "unknown-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:personal",
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-295",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "terminal": true,
+      "variant": "compound-personal-safety"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:psychological",
+        "boundary_crossed:therapeutic"
+      ],
+      "case_id": "AOMS-296",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "terminal": true,
+      "variant": "compound-therapeutic-psychological"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "case_id": "AOMS-297",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "terminal": true,
+      "variant": "personal-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "case_id": "AOMS-298",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "terminal": true,
+      "variant": "psychological-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:therapeutic"
+      ],
+      "case_id": "AOMS-299",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:therapeutic"
+      ],
+      "terminal": true,
+      "variant": "therapeutic-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-300",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "terminal": true,
+      "variant": "safety-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:unknown"
+      ],
+      "case_id": "AOMS-301",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:unknown"
+      ],
+      "terminal": true,
+      "variant": "unknown-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:personal",
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-302",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "terminal": true,
+      "variant": "compound-personal-safety"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:psychological",
+        "boundary_crossed:therapeutic"
+      ],
+      "case_id": "AOMS-303",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "terminal": true,
+      "variant": "compound-therapeutic-psychological"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "case_id": "AOMS-304",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "terminal": true,
+      "variant": "personal-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "case_id": "AOMS-305",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "terminal": true,
+      "variant": "psychological-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:therapeutic"
+      ],
+      "case_id": "AOMS-306",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:therapeutic"
+      ],
+      "terminal": true,
+      "variant": "therapeutic-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-307",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "terminal": true,
+      "variant": "safety-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:unknown"
+      ],
+      "case_id": "AOMS-308",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:unknown"
+      ],
+      "terminal": true,
+      "variant": "unknown-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:personal",
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-309",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "terminal": true,
+      "variant": "compound-personal-safety"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:psychological",
+        "boundary_crossed:therapeutic"
+      ],
+      "case_id": "AOMS-310",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "terminal": true,
+      "variant": "compound-therapeutic-psychological"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "case_id": "AOMS-311",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "terminal": true,
+      "variant": "personal-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "case_id": "AOMS-312",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "terminal": true,
+      "variant": "psychological-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:therapeutic"
+      ],
+      "case_id": "AOMS-313",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:therapeutic"
+      ],
+      "terminal": true,
+      "variant": "therapeutic-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-314",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "terminal": true,
+      "variant": "safety-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:unknown"
+      ],
+      "case_id": "AOMS-315",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:unknown"
+      ],
+      "terminal": true,
+      "variant": "unknown-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:personal",
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-316",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "terminal": true,
+      "variant": "compound-personal-safety"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:psychological",
+        "boundary_crossed:therapeutic"
+      ],
+      "case_id": "AOMS-317",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "terminal": true,
+      "variant": "compound-therapeutic-psychological"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "case_id": "AOMS-318",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "terminal": true,
+      "variant": "personal-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "case_id": "AOMS-319",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "terminal": true,
+      "variant": "psychological-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:therapeutic"
+      ],
+      "case_id": "AOMS-320",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:therapeutic"
+      ],
+      "terminal": true,
+      "variant": "therapeutic-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-321",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "terminal": true,
+      "variant": "safety-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:unknown"
+      ],
+      "case_id": "AOMS-322",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:unknown"
+      ],
+      "terminal": true,
+      "variant": "unknown-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:personal",
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-323",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "terminal": true,
+      "variant": "compound-personal-safety"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:psychological",
+        "boundary_crossed:therapeutic"
+      ],
+      "case_id": "AOMS-324",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "terminal": true,
+      "variant": "compound-therapeutic-psychological"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "case_id": "AOMS-325",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "terminal": true,
+      "variant": "personal-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "case_id": "AOMS-326",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "terminal": true,
+      "variant": "psychological-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:therapeutic"
+      ],
+      "case_id": "AOMS-327",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:therapeutic"
+      ],
+      "terminal": true,
+      "variant": "therapeutic-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-328",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "terminal": true,
+      "variant": "safety-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:unknown"
+      ],
+      "case_id": "AOMS-329",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:unknown"
+      ],
+      "terminal": true,
+      "variant": "unknown-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:personal",
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-330",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "terminal": true,
+      "variant": "compound-personal-safety"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:psychological",
+        "boundary_crossed:therapeutic"
+      ],
+      "case_id": "AOMS-331",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "terminal": true,
+      "variant": "compound-therapeutic-psychological"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "case_id": "AOMS-332",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "terminal": true,
+      "variant": "personal-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "case_id": "AOMS-333",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "terminal": true,
+      "variant": "psychological-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:therapeutic"
+      ],
+      "case_id": "AOMS-334",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:therapeutic"
+      ],
+      "terminal": true,
+      "variant": "therapeutic-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-335",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "terminal": true,
+      "variant": "safety-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:unknown"
+      ],
+      "case_id": "AOMS-336",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:unknown"
+      ],
+      "terminal": true,
+      "variant": "unknown-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:personal",
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-337",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "terminal": true,
+      "variant": "compound-personal-safety"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:psychological",
+        "boundary_crossed:therapeutic"
+      ],
+      "case_id": "AOMS-338",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "terminal": true,
+      "variant": "compound-therapeutic-psychological"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "case_id": "AOMS-339",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "terminal": true,
+      "variant": "personal-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "case_id": "AOMS-340",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "terminal": true,
+      "variant": "psychological-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:therapeutic"
+      ],
+      "case_id": "AOMS-341",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:therapeutic"
+      ],
+      "terminal": true,
+      "variant": "therapeutic-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-342",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "terminal": true,
+      "variant": "safety-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:unknown"
+      ],
+      "case_id": "AOMS-343",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:unknown"
+      ],
+      "terminal": true,
+      "variant": "unknown-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:personal",
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-344",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "terminal": true,
+      "variant": "compound-personal-safety"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:psychological",
+        "boundary_crossed:therapeutic"
+      ],
+      "case_id": "AOMS-345",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "terminal": true,
+      "variant": "compound-therapeutic-psychological"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "case_id": "AOMS-346",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:personal"
+      ],
+      "terminal": true,
+      "variant": "personal-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "case_id": "AOMS-347",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:psychological"
+      ],
+      "terminal": true,
+      "variant": "psychological-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:therapeutic"
+      ],
+      "case_id": "AOMS-348",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:therapeutic"
+      ],
+      "terminal": true,
+      "variant": "therapeutic-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-349",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "terminal": true,
+      "variant": "safety-boundary"
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:unknown"
+      ],
+      "case_id": "AOMS-350",
+      "expected_decision": "ESCALATE",
+      "family": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "required_reasons": [
+        "boundary_crossed:unknown"
+      ],
+      "terminal": true,
+      "variant": "unknown-boundary"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "suite": "AOMS Phase II canonical proof wave"
+}

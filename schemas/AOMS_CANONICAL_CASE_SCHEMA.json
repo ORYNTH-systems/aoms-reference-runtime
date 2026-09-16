@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ORYNTH-systems/aoms-reference-runtime/schemas/AOMS_CANONICAL_CASE_SCHEMA.json",
+  "title": "AOMS Phase II Canonical Case",
+  "type": "object",
+  "required": ["case_id", "schema_version", "family", "variant", "description", "artifact", "context", "expected"],
+  "properties": {
+    "case_id": {"type": "string", "pattern": "^AOMS-[0-9]{3}$"},
+    "schema_version": {"const": "2.0.0"},
+    "family": {"enum": ["ALLOW", "DENY", "ESCALATE", "REAUTHORIZE"]},
+    "variant": {"type": "string", "minLength": 1},
+    "description": {"type": "string", "minLength": 1},
+    "artifact": {"type": "object"},
+    "context": {"type": "object"},
+    "expected": {
+      "type": "object",
+      "required": ["decision", "required_reasons", "terminal"],
+      "properties": {
+        "decision": {"enum": ["ALLOW", "DENY", "ESCALATE", "REAUTHORIZE"]},
+        "required_reasons": {"type": "array", "items": {"type": "string"}},
+        "terminal": {"const": true}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,42 @@
+{
+  "artifact": {
+    "actor_id": "agent-alpha",
+    "artifact_version": "2",
+    "authority_valid": true,
+    "authorization_id": "AUTH-103",
+    "authorized_action": "execute-governed-transition",
+    "authorized_at": "2026-01-01T00:00:00Z",
+    "dependency_state": "ready",
+    "environment_state": "valid",
+    "evidence_state": "sufficient",
+    "expires_at": "2027-01-01T00:00:00Z",
+    "identity_state": "identity-bound",
+    "issuer_id": "principal-alpha",
+    "policy_version": "policy-v1",
+    "resource_state": "available"
+  },
+  "case_id": "AOMS-103",
+  "context": {
+    "actor_id": "agent-alpha",
+    "attempted_at": "2026-06-01T00:00:00Z",
+    "authority_valid": true,
+    "boundary_signals": [],
+    "context_id": "CTX-103",
+    "dependency_state": "ready",
+    "environment_state": "valid",
+    "evidence_state": "sufficient",
+    "identity_state": "identity-bound",
+    "policy_version": "policy-v1",
+    "requested_action": "execute-governed-transition",
+    "resource_state": "available"
+  },
+  "description": "continuous authorized state 03 canonical proof 103",
+  "expected": {
+    "decision": "ALLOW",
+    "required_reasons": [],
+    "terminal": true
+  },
+  "family": "ALLOW",
+  "schema_version": "2.0.0",
+  "variant": "continuous-authorized-state-03"
+}

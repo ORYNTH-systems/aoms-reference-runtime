@@ -1,0 +1,44 @@
+{
+  "artifact": {
+    "actor_id": "agent-alpha",
+    "artifact_version": "2",
+    "authority_valid": true,
+    "authorization_id": "AUTH-192",
+    "authorized_action": "execute-governed-transition",
+    "authorized_at": "2026-01-01T00:00:00Z",
+    "dependency_state": "ready",
+    "environment_state": "valid",
+    "evidence_state": "sufficient",
+    "expires_at": "2027-01-01T00:00:00Z",
+    "identity_state": "identity-bound",
+    "issuer_id": "principal-alpha",
+    "policy_version": "policy-v1",
+    "resource_state": "available"
+  },
+  "case_id": "AOMS-192",
+  "context": {
+    "actor_id": "agent-alpha",
+    "attempted_at": "2028-01-01T00:00:00Z",
+    "authority_valid": true,
+    "boundary_signals": [],
+    "context_id": "CTX-192",
+    "dependency_state": "ready",
+    "environment_state": "valid",
+    "evidence_state": "sufficient",
+    "identity_state": "identity-bound",
+    "policy_version": "policy-v1",
+    "requested_action": "execute-governed-transition",
+    "resource_state": "available"
+  },
+  "description": "authorization expired canonical proof 192",
+  "expected": {
+    "decision": "REAUTHORIZE",
+    "required_reasons": [
+      "authorization_expired"
+    ],
+    "terminal": true
+  },
+  "family": "REAUTHORIZE",
+  "schema_version": "2.0.0",
+  "variant": "authorization-expired"
+}
