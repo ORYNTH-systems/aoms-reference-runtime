@@ -1,0 +1,287 @@
+{
+  "case_count": 10,
+  "domain": "CIVIC_SYSTEMS",
+  "failed": 0,
+  "passed": 10,
+  "results": [
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-B06-041",
+      "domain": "CIVIC_SYSTEMS",
+      "effect_class": "registration update",
+      "execution_id": "AOMS-EXE-41ddbf984f7b4903a1ea852896600165",
+      "expected_decision": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-TERMINALITY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-041",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-41ddbf984f7b4903a1ea852896600165"
+      ],
+      "required_reasons": [],
+      "terminal": true
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "dependency_state_changed"
+      ],
+      "case_id": "AOMS-B06-042",
+      "domain": "CIVIC_SYSTEMS",
+      "effect_class": "ballot workflow",
+      "execution_id": "AOMS-EXE-a697146f6d164737975b89cf74c8fb92",
+      "expected_decision": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-FAIL-CLOSED",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-042",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-a697146f6d164737975b89cf74c8fb92"
+      ],
+      "required_reasons": [
+        "dependency_state_changed"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-B06-043",
+      "domain": "CIVIC_SYSTEMS",
+      "effect_class": "tabulation action",
+      "execution_id": "AOMS-EXE-a93e7bb8a01e4d029bc1dc2ce039754d",
+      "expected_decision": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-BOUNDARY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-043",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-a93e7bb8a01e4d029bc1dc2ce039754d"
+      ],
+      "required_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authorization_expired"
+      ],
+      "case_id": "AOMS-B06-044",
+      "domain": "CIVIC_SYSTEMS",
+      "effect_class": "certification step",
+      "execution_id": "AOMS-EXE-52395a88dfdc4502be76ee3eb41e26dd",
+      "expected_decision": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-CURRENT-AUTHORITY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-044",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-52395a88dfdc4502be76ee3eb41e26dd"
+      ],
+      "required_reasons": [
+        "authorization_expired"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-B06-045",
+      "domain": "CIVIC_SYSTEMS",
+      "effect_class": "public-record release",
+      "execution_id": "AOMS-EXE-e14f0bbce683475abbc6382fa3a9f472",
+      "expected_decision": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-TERMINALITY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-045",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-e14f0bbce683475abbc6382fa3a9f472"
+      ],
+      "required_reasons": [],
+      "terminal": true
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "dependency_state_changed"
+      ],
+      "case_id": "AOMS-B06-046",
+      "domain": "CIVIC_SYSTEMS",
+      "effect_class": "registration update",
+      "execution_id": "AOMS-EXE-ed923dfb834246d1a710193b2f5119e9",
+      "expected_decision": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-FAIL-CLOSED",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-046",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-ed923dfb834246d1a710193b2f5119e9"
+      ],
+      "required_reasons": [
+        "dependency_state_changed"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-B06-047",
+      "domain": "CIVIC_SYSTEMS",
+      "effect_class": "ballot workflow",
+      "execution_id": "AOMS-EXE-1fdc794ebae64ad3af1652cf0128f756",
+      "expected_decision": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-BOUNDARY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-047",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-1fdc794ebae64ad3af1652cf0128f756"
+      ],
+      "required_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authorization_expired"
+      ],
+      "case_id": "AOMS-B06-048",
+      "domain": "CIVIC_SYSTEMS",
+      "effect_class": "tabulation action",
+      "execution_id": "AOMS-EXE-f7e2b07d620a4a709555e7c0c1717ee5",
+      "expected_decision": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-CURRENT-AUTHORITY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-048",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-f7e2b07d620a4a709555e7c0c1717ee5"
+      ],
+      "required_reasons": [
+        "authorization_expired"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-B06-049",
+      "domain": "CIVIC_SYSTEMS",
+      "effect_class": "certification step",
+      "execution_id": "AOMS-EXE-bcf912c0b1ad41ae87b6afb6a58b0cfc",
+      "expected_decision": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-TERMINALITY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-049",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-bcf912c0b1ad41ae87b6afb6a58b0cfc"
+      ],
+      "required_reasons": [],
+      "terminal": true
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "dependency_state_changed"
+      ],
+      "case_id": "AOMS-B06-050",
+      "domain": "CIVIC_SYSTEMS",
+      "effect_class": "public-record release",
+      "execution_id": "AOMS-EXE-c53ef37d1ccd4560b94cecbc28beaa18",
+      "expected_decision": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-FAIL-CLOSED",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-050",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-c53ef37d1ccd4560b94cecbc28beaa18"
+      ],
+      "required_reasons": [
+        "dependency_state_changed"
+      ],
+      "terminal": true
+    }
+  ],
+  "status": "EXECUTION-VERIFIED"
+}

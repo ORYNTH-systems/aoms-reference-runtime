@@ -1,0 +1,291 @@
+{
+  "case_count": 10,
+  "domain": "FINANCE",
+  "failed": 0,
+  "passed": 10,
+  "results": [
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-B06-011",
+      "domain": "FINANCE",
+      "effect_class": "payment initiation",
+      "execution_id": "AOMS-EXE-89f1be83bc114f12bad819930f2f123d",
+      "expected_decision": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-BOUNDARY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-011",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-89f1be83bc114f12bad819930f2f123d"
+      ],
+      "required_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authorization_expired"
+      ],
+      "case_id": "AOMS-B06-012",
+      "domain": "FINANCE",
+      "effect_class": "settlement",
+      "execution_id": "AOMS-EXE-5e6e4669ca15410a9cee32c7c47f34c9",
+      "expected_decision": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-CURRENT-AUTHORITY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-012",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-5e6e4669ca15410a9cee32c7c47f34c9"
+      ],
+      "required_reasons": [
+        "authorization_expired"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-B06-013",
+      "domain": "FINANCE",
+      "effect_class": "asset transfer",
+      "execution_id": "AOMS-EXE-88bdae3384c04352bbb1f1a5611a4409",
+      "expected_decision": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-TERMINALITY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-013",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-88bdae3384c04352bbb1f1a5611a4409"
+      ],
+      "required_reasons": [],
+      "terminal": true
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "dependency_state_changed"
+      ],
+      "case_id": "AOMS-B06-014",
+      "domain": "FINANCE",
+      "effect_class": "reversal",
+      "execution_id": "AOMS-EXE-c99ca8b55d1242e2a02ecdc555bf151d",
+      "expected_decision": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-FAIL-CLOSED",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-014",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-c99ca8b55d1242e2a02ecdc555bf151d"
+      ],
+      "required_reasons": [
+        "dependency_state_changed"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-B06-015",
+      "domain": "FINANCE",
+      "effect_class": "account mutation",
+      "execution_id": "AOMS-EXE-db0880d49f6d44a2964c1fae0f87ceea",
+      "expected_decision": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-BOUNDARY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-015",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-db0880d49f6d44a2964c1fae0f87ceea"
+      ],
+      "required_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authorization_expired"
+      ],
+      "case_id": "AOMS-B06-016",
+      "domain": "FINANCE",
+      "effect_class": "payment initiation",
+      "execution_id": "AOMS-EXE-1490181c995e4207a137513c2c58104b",
+      "expected_decision": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-CURRENT-AUTHORITY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-016",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-1490181c995e4207a137513c2c58104b"
+      ],
+      "required_reasons": [
+        "authorization_expired"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-B06-017",
+      "domain": "FINANCE",
+      "effect_class": "settlement",
+      "execution_id": "AOMS-EXE-8f2b404428944b60af218283ce7796b7",
+      "expected_decision": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-TERMINALITY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-017",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-8f2b404428944b60af218283ce7796b7"
+      ],
+      "required_reasons": [],
+      "terminal": true
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "dependency_state_changed"
+      ],
+      "case_id": "AOMS-B06-018",
+      "domain": "FINANCE",
+      "effect_class": "asset transfer",
+      "execution_id": "AOMS-EXE-bda178151e7747e98c0f22f6a1b48c60",
+      "expected_decision": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-FAIL-CLOSED",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-018",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-bda178151e7747e98c0f22f6a1b48c60"
+      ],
+      "required_reasons": [
+        "dependency_state_changed"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-B06-019",
+      "domain": "FINANCE",
+      "effect_class": "reversal",
+      "execution_id": "AOMS-EXE-4706fb9b0337409da99f072ed97895d2",
+      "expected_decision": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-BOUNDARY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-019",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-4706fb9b0337409da99f072ed97895d2"
+      ],
+      "required_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authorization_expired"
+      ],
+      "case_id": "AOMS-B06-020",
+      "domain": "FINANCE",
+      "effect_class": "account mutation",
+      "execution_id": "AOMS-EXE-f648ff7212a74051945c940947413338",
+      "expected_decision": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-CURRENT-AUTHORITY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-020",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-f648ff7212a74051945c940947413338"
+      ],
+      "required_reasons": [
+        "authorization_expired"
+      ],
+      "terminal": true
+    }
+  ],
+  "status": "EXECUTION-VERIFIED"
+}

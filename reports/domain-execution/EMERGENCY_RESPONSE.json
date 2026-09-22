@@ -1,0 +1,291 @@
+{
+  "case_count": 10,
+  "domain": "EMERGENCY_RESPONSE",
+  "failed": 0,
+  "passed": 10,
+  "results": [
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-B06-051",
+      "domain": "EMERGENCY_RESPONSE",
+      "effect_class": "dispatch",
+      "execution_id": "AOMS-EXE-e354aca5b572411abdd051ffabfc9802",
+      "expected_decision": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-BOUNDARY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-051",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-e354aca5b572411abdd051ffabfc9802"
+      ],
+      "required_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authorization_expired"
+      ],
+      "case_id": "AOMS-B06-052",
+      "domain": "EMERGENCY_RESPONSE",
+      "effect_class": "resource allocation",
+      "execution_id": "AOMS-EXE-fefc10722c2e42c39dc4ec3fb703bf53",
+      "expected_decision": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-CURRENT-AUTHORITY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-052",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-fefc10722c2e42c39dc4ec3fb703bf53"
+      ],
+      "required_reasons": [
+        "authorization_expired"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-B06-053",
+      "domain": "EMERGENCY_RESPONSE",
+      "effect_class": "evacuation notice",
+      "execution_id": "AOMS-EXE-6197797acec04493ae7eb94f38e86abc",
+      "expected_decision": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-TERMINALITY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-053",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-6197797acec04493ae7eb94f38e86abc"
+      ],
+      "required_reasons": [],
+      "terminal": true
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "dependency_state_changed"
+      ],
+      "case_id": "AOMS-B06-054",
+      "domain": "EMERGENCY_RESPONSE",
+      "effect_class": "priority override",
+      "execution_id": "AOMS-EXE-e605d200d23b4c90a8487609e29e5de2",
+      "expected_decision": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-FAIL-CLOSED",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-054",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-e605d200d23b4c90a8487609e29e5de2"
+      ],
+      "required_reasons": [
+        "dependency_state_changed"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-B06-055",
+      "domain": "EMERGENCY_RESPONSE",
+      "effect_class": "interagency handoff",
+      "execution_id": "AOMS-EXE-54bb9c704efd42f4b2e771126e940322",
+      "expected_decision": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-BOUNDARY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-055",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-54bb9c704efd42f4b2e771126e940322"
+      ],
+      "required_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authorization_expired"
+      ],
+      "case_id": "AOMS-B06-056",
+      "domain": "EMERGENCY_RESPONSE",
+      "effect_class": "dispatch",
+      "execution_id": "AOMS-EXE-442f3db2484040e79e74f3f638da79c8",
+      "expected_decision": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-CURRENT-AUTHORITY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-056",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-442f3db2484040e79e74f3f638da79c8"
+      ],
+      "required_reasons": [
+        "authorization_expired"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-B06-057",
+      "domain": "EMERGENCY_RESPONSE",
+      "effect_class": "resource allocation",
+      "execution_id": "AOMS-EXE-de386a8f3e7a47649fb027617f0293cc",
+      "expected_decision": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-TERMINALITY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-057",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-de386a8f3e7a47649fb027617f0293cc"
+      ],
+      "required_reasons": [],
+      "terminal": true
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "dependency_state_changed"
+      ],
+      "case_id": "AOMS-B06-058",
+      "domain": "EMERGENCY_RESPONSE",
+      "effect_class": "evacuation notice",
+      "execution_id": "AOMS-EXE-0ef1e3e105cb4632b1cce27a97c3695e",
+      "expected_decision": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-FAIL-CLOSED",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-058",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-0ef1e3e105cb4632b1cce27a97c3695e"
+      ],
+      "required_reasons": [
+        "dependency_state_changed"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-B06-059",
+      "domain": "EMERGENCY_RESPONSE",
+      "effect_class": "priority override",
+      "execution_id": "AOMS-EXE-cd60dd4a39ca4aac80212dc95393eb54",
+      "expected_decision": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-BOUNDARY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-059",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-cd60dd4a39ca4aac80212dc95393eb54"
+      ],
+      "required_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authorization_expired"
+      ],
+      "case_id": "AOMS-B06-060",
+      "domain": "EMERGENCY_RESPONSE",
+      "effect_class": "interagency handoff",
+      "execution_id": "AOMS-EXE-29adaad5b7544114926a5067d3b04719",
+      "expected_decision": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-CURRENT-AUTHORITY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-060",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-29adaad5b7544114926a5067d3b04719"
+      ],
+      "required_reasons": [
+        "authorization_expired"
+      ],
+      "terminal": true
+    }
+  ],
+  "status": "EXECUTION-VERIFIED"
+}

@@ -1,0 +1,47 @@
+{
+  "artifact": {
+    "actor_id": "actor-finance",
+    "artifact_version": "1",
+    "authority_valid": true,
+    "authorization_id": "AUTH-AOMS-B06-012",
+    "authorized_action": "settlement",
+    "authorized_at": "2026-01-01T00:00:00Z",
+    "dependency_state": "READY",
+    "environment_state": "VALID",
+    "evidence_state": "SUFFICIENT",
+    "expires_at": "2027-01-01T00:00:00Z",
+    "identity_state": "VERIFIED",
+    "issuer_id": "orynth-domain-authority",
+    "policy_version": "AOMS-DOMAIN-1",
+    "resource_state": "AVAILABLE"
+  },
+  "case_id": "AOMS-B06-012",
+  "context": {
+    "actor_id": "actor-finance",
+    "attempted_at": "2028-01-01T00:00:00Z",
+    "authority_valid": true,
+    "boundary_signals": [],
+    "context_id": "CTX-AOMS-B06-012",
+    "dependency_state": "READY",
+    "environment_state": "VALID",
+    "evidence_state": "SUFFICIENT",
+    "identity_state": "VERIFIED",
+    "policy_version": "AOMS-DOMAIN-1",
+    "requested_action": "settlement",
+    "resource_state": "AVAILABLE"
+  },
+  "domain": "FINANCE",
+  "effect_class": "settlement",
+  "expected": {
+    "decision": "REAUTHORIZE",
+    "proof_complete": true,
+    "required_reasons": [
+      "authorization_expired"
+    ],
+    "terminal": true
+  },
+  "proof_obligation": "PO-CURRENT-AUTHORITY",
+  "schema_version": "3.0.0",
+  "source_benchmark": "AOMS-BENCH-001",
+  "source_status": "DESIGN-VALIDATED"
+}

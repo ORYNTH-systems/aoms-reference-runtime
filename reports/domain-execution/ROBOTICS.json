@@ -1,0 +1,291 @@
+{
+  "case_count": 10,
+  "domain": "ROBOTICS",
+  "failed": 0,
+  "passed": 10,
+  "results": [
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-B06-031",
+      "domain": "ROBOTICS",
+      "effect_class": "motion command",
+      "execution_id": "AOMS-EXE-6a1575026cad47c1a57b5979360be60e",
+      "expected_decision": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-BOUNDARY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-031",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-6a1575026cad47c1a57b5979360be60e"
+      ],
+      "required_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authorization_expired"
+      ],
+      "case_id": "AOMS-B06-032",
+      "domain": "ROBOTICS",
+      "effect_class": "actuator control",
+      "execution_id": "AOMS-EXE-9c9a8f9759a04000ae34c6e3a3751b9e",
+      "expected_decision": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-CURRENT-AUTHORITY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-032",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-9c9a8f9759a04000ae34c6e3a3751b9e"
+      ],
+      "required_reasons": [
+        "authorization_expired"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-B06-033",
+      "domain": "ROBOTICS",
+      "effect_class": "workspace entry",
+      "execution_id": "AOMS-EXE-7fabd165b6f04276946b38fed8f1c120",
+      "expected_decision": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-TERMINALITY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-033",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-7fabd165b6f04276946b38fed8f1c120"
+      ],
+      "required_reasons": [],
+      "terminal": true
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "dependency_state_changed"
+      ],
+      "case_id": "AOMS-B06-034",
+      "domain": "ROBOTICS",
+      "effect_class": "payload handling",
+      "execution_id": "AOMS-EXE-7a8103fdb6b94fcbaad2ce3829fadbef",
+      "expected_decision": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-FAIL-CLOSED",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-034",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-7a8103fdb6b94fcbaad2ce3829fadbef"
+      ],
+      "required_reasons": [
+        "dependency_state_changed"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-B06-035",
+      "domain": "ROBOTICS",
+      "effect_class": "emergency stop",
+      "execution_id": "AOMS-EXE-d180760541a742d38a7beeb4a92c287f",
+      "expected_decision": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-BOUNDARY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-035",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-d180760541a742d38a7beeb4a92c287f"
+      ],
+      "required_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authorization_expired"
+      ],
+      "case_id": "AOMS-B06-036",
+      "domain": "ROBOTICS",
+      "effect_class": "motion command",
+      "execution_id": "AOMS-EXE-1ced7f274d5b445ba1e7d6596c37fc80",
+      "expected_decision": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-CURRENT-AUTHORITY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-036",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-1ced7f274d5b445ba1e7d6596c37fc80"
+      ],
+      "required_reasons": [
+        "authorization_expired"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "ALLOW",
+      "actual_reasons": [],
+      "case_id": "AOMS-B06-037",
+      "domain": "ROBOTICS",
+      "effect_class": "actuator control",
+      "execution_id": "AOMS-EXE-b7cf2edb46304eb8b94924cf565f9f32",
+      "expected_decision": "ALLOW",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-TERMINALITY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-037",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-b7cf2edb46304eb8b94924cf565f9f32"
+      ],
+      "required_reasons": [],
+      "terminal": true
+    },
+    {
+      "actual_decision": "DENY",
+      "actual_reasons": [
+        "dependency_state_changed"
+      ],
+      "case_id": "AOMS-B06-038",
+      "domain": "ROBOTICS",
+      "effect_class": "workspace entry",
+      "execution_id": "AOMS-EXE-d17451051b784fbb9bcdbea045feb759",
+      "expected_decision": "DENY",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-FAIL-CLOSED",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-038",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-d17451051b784fbb9bcdbea045feb759"
+      ],
+      "required_reasons": [
+        "dependency_state_changed"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "ESCALATE",
+      "actual_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "case_id": "AOMS-B06-039",
+      "domain": "ROBOTICS",
+      "effect_class": "payload handling",
+      "execution_id": "AOMS-EXE-d78adf1e69204f59a39a2a446cc17905",
+      "expected_decision": "ESCALATE",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-BOUNDARY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-039",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-d78adf1e69204f59a39a2a446cc17905"
+      ],
+      "required_reasons": [
+        "boundary_crossed:safety"
+      ],
+      "terminal": true
+    },
+    {
+      "actual_decision": "REAUTHORIZE",
+      "actual_reasons": [
+        "authorization_expired"
+      ],
+      "case_id": "AOMS-B06-040",
+      "domain": "ROBOTICS",
+      "effect_class": "emergency stop",
+      "execution_id": "AOMS-EXE-6117a9818dc44503acfbfe5049736b3a",
+      "expected_decision": "REAUTHORIZE",
+      "passed": true,
+      "proof_complete": true,
+      "proof_obligation": "PO-CURRENT-AUTHORITY",
+      "provenance": [
+        "authority_artifact",
+        "AUTH-AOMS-B06-040",
+        "orynth-domain-authority",
+        "authority_state",
+        "execution_context",
+        "execution_context.boundary_signals",
+        "eligibility_engine",
+        "decision_engine",
+        "AOMS-EXE-6117a9818dc44503acfbfe5049736b3a"
+      ],
+      "required_reasons": [
+        "authorization_expired"
+      ],
+      "terminal": true
+    }
+  ],
+  "status": "EXECUTION-VERIFIED"
+}
