@@ -106,7 +106,10 @@ The candidate is technically admissible only when every machine check passes and
         lines = []
         for relative in HASH_TARGETS:
             path = ROOT / relative
-            lines.append(f"{hashlib.sha256(path.read_bytes()).hexdigest()}  {relative}")
+            data = path.read_bytes()
+            if b"\x00" not in data:
+                data = data.replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+            lines.append(f"{hashlib.sha256(data).hexdigest()}  {relative}")
         HASHES.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
     print(json.dumps(result, indent=2, sort_keys=True))
     return result
