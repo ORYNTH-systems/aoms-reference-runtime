@@ -16,3 +16,8 @@ Phase II exposes each engine and canonical state object separately, preserves pr
 
 ## Protected Invariant
 A valid historical authority artifact does not independently establish present execution permission.
+
+<!-- AOMS-PHASE-II-TECHNICAL-SUMMARY -->
+## Phase II technical position
+
+The reference implementation evaluates 410 cases across the preserved v1 corpus, the canonical proof corpus, and six executable domain profiles. The evidence chain connects specifications and publication claims to runtime components, cases, reports, proof obligations, and frozen hashes. See `../manuals/REPRODUCIBILITY.md` for the exact verification sequence.

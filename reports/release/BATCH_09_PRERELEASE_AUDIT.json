@@ -1,0 +1,28 @@
+{
+  "checks": {
+    "all_claims_execution_verified": true,
+    "batch_07_aggregate_present": true,
+    "batch_08_closure_present": true,
+    "canonical_case_count_250": true,
+    "claim_count_20": true,
+    "domain_case_count_60": true,
+    "release_candidate_manifest_present": true,
+    "reproducibility_guide_present": true,
+    "total_case_count_410": true,
+    "v1_case_count_100": true
+  },
+  "closed_claims": 20,
+  "counts": {
+    "canonical_cases": 250,
+    "domain_cases": 60,
+    "publications": 3,
+    "registries": 26,
+    "specifications": 4,
+    "total_cases": 410,
+    "v1_cases": 100
+  },
+  "errors": [],
+  "passed": true,
+  "profile": "AOMS-PRERELEASE-001",
+  "release_action_performed": false
+}

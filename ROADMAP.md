@@ -40,3 +40,8 @@ The 100-case v1 corpus and its generated evidence artifacts remain preserved as 
 - Verification framework
 - Multi-agent, boundary-intelligence, and execution-governance-stack papers
 - Reproducible release package
+
+<!-- AOMS-PHASE-II-ROADMAP -->
+## Phase II release-candidate gate
+
+Phase II reaches release-candidate eligibility after the Batch 09 pre-release audit verifies the 410-case corpus, the complete regression suite, all 20 claim closures, the public artifact inventory, and the frozen SHA-256 manifest. Tagging, archival deposit, and public release remain separate controlled actions.

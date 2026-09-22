@@ -116,3 +116,15 @@ ORYNTH Systems
 - Phase II verification corpus: pending Batch 03
 - specifications and manuals: pending Batch 04
 - publication extensions: pending Batch 05
+
+<!-- AOMS-PHASE-II-FRONT-DOOR -->
+## Phase II verified surface
+
+AOMS Phase II supplies a canonical reconstruction-governed runtime, conformance profile, publication series, and executable evidence chain. The repository currently contains 100 preserved v1 cases, 250 canonical cases, and 60 executable domain cases: 410 cases in total.
+
+- Start with `manuals/REPRODUCIBILITY.md` to reproduce the evidence.
+- Read `architecture/PHASE_II_ARTIFACT_INVENTORY.md` for the complete artifact map.
+- Inspect `release/AOMS_PHASE_II_EVIDENCE_INDEX.md` for claim-to-proof navigation.
+- Review `release/AOMS_PHASE_II_RELEASE_CANDIDATE_MANIFEST.md` for candidate scope and limitations.
+
+The four terminal decisions are `ALLOW`, `DENY`, `ESCALATE`, and `REAUTHORIZE`. Release-candidate status is an internal repository state; it is not a certification, standards adoption, peer-review determination, or deployment authorization.

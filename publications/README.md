@@ -14,3 +14,13 @@
 - The ORYNTH Execution Governance Stack
 
 Draft manuscripts must not claim implementation, proof, or benchmark results until corresponding repository artifacts pass validation.
+
+<!-- AOMS-PHASE-II-PUBLICATIONS -->
+## Phase II publication series
+
+- `AOMS-002_MATHEMATICAL_FOUNDATIONS.md`
+- `AOMS-003_VERIFICATION_METHODOLOGY.md`
+- `AOMS-004_EXECUTION_GOVERNANCE_STACK.md`
+- `appendices/` contains the executable-evidence appendices.
+
+Publication claims are resolved through `../crosswalks/AOMS_CLAIM_TO_PROOF_MATRIX.csv` and `../registries/AOMS-RG-026_CLAIM_PROOF_CLOSURE.csv`.

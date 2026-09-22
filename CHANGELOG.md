@@ -17,3 +17,11 @@
 - Existing evidence artifacts
 - Existing v1 runtime
 - Existing doctrine and execution specification
+
+<!-- AOMS-BATCH-09-CHANGELOG -->
+## Phase II Batch 09 - pre-release hardening
+
+- Hardened the repository front door and navigation surfaces.
+- Added reproducibility instructions and a complete Phase II artifact inventory.
+- Added a machine-validated pre-release audit and SHA-256 freeze manifest.
+- Preserved the no-tag and no-release boundary pending final release authorization.
