@@ -1,0 +1,12 @@
+{
+  "claim_count": 20,
+  "closure_count": 3,
+  "errors": [],
+  "passed": true,
+  "profile": "AOMS-CLOSURE-001",
+  "publication_counts": {
+    "AOMS-002": 8,
+    "AOMS-003": 6,
+    "AOMS-004": 6
+  }
+}

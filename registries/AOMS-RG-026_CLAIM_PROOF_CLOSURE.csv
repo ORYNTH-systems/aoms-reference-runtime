@@ -1,0 +1,4 @@
+closure_id,publication_id,claim_range,claim_count,evidence_appendix,status
+AOMS-CLOSURE-002,AOMS-002,AOMS-CP-001:AOMS-CP-008,8,publications/appendices/AOMS-002_EVIDENCE_APPENDIX.md,CLOSED
+AOMS-CLOSURE-003,AOMS-003,AOMS-CP-009:AOMS-CP-014,6,publications/appendices/AOMS-003_EVIDENCE_APPENDIX.md,CLOSED
+AOMS-CLOSURE-004,AOMS-004,AOMS-CP-015:AOMS-CP-020,6,publications/appendices/AOMS-004_EVIDENCE_APPENDIX.md,CLOSED
