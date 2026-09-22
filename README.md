@@ -128,3 +128,8 @@ AOMS Phase II supplies a canonical reconstruction-governed runtime, conformance 
 - Review `release/AOMS_PHASE_II_RELEASE_CANDIDATE_MANIFEST.md` for candidate scope and limitations.
 
 The four terminal decisions are `ALLOW`, `DENY`, `ESCALATE`, and `REAUTHORIZE`. Release-candidate status is an internal repository state; it is not a certification, standards adoption, peer-review determination, or deployment authorization.
+
+<!-- AOMS-PHASE-II-RC1 -->
+## Phase II release candidate
+
+The current controlled candidate is `2.0.0-rc.1`. It contains the canonical runtime, 410-case evidence corpus, conformance profile, publication/specification series, six-domain execution wave, claim-proof closure, and reproducibility package. Candidate status does not create a release or deployment authorization. See `release/AOMS_PHASE_II_RELEASE_AUTHORIZATION_GATE.md`.

@@ -25,3 +25,12 @@
 - Added reproducibility instructions and a complete Phase II artifact inventory.
 - Added a machine-validated pre-release audit and SHA-256 freeze manifest.
 - Preserved the no-tag and no-release boundary pending final release authorization.
+
+<!-- AOMS-BATCH-10-CHANGELOG -->
+## Phase II Batch 10 - final release candidate
+
+- Declared candidate version 2.0.0-rc.1.
+- Reconciled the Phase II manifest, evidence, citation, and packaging surfaces.
+- Added a machine-validated final release-candidate audit.
+- Added an explicit authorization gate preventing automatic tagging or publication.
+- Prepared a reproducible source archive and independent SHA-256 sidecar outside the repository.

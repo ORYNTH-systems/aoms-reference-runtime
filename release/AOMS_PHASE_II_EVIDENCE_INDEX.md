@@ -19,3 +19,11 @@
 - Domain execution registry
 - Claim-proof closure registry
 - Publication evidence appendices
+
+<!-- AOMS-BATCH-10-EVIDENCE -->
+## Batch 10 final candidate evidence
+
+- Final audit: `reports/release/BATCH_10_FINAL_RELEASE_AUDIT.json`
+- Final candidate manifest: `release/AOMS_PHASE_II_FINAL_RELEASE_MANIFEST.md`
+- Repository hash freeze: `release/SHA256SUMS_BATCH_10.txt`
+- Authorization boundary: `release/AOMS_PHASE_II_RELEASE_AUTHORIZATION_GATE.md`

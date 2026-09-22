@@ -1,0 +1,32 @@
+{
+  "checks": {
+    "all_claims_execution_verified": true,
+    "batch_09_audit_passed": true,
+    "candidate_version_exact": true,
+    "canonical_case_count_250": true,
+    "closed_claim_count_20": true,
+    "domain_case_count_60": true,
+    "no_release_action_declared": true,
+    "required_release_surfaces_present": true,
+    "total_case_count_410": true,
+    "v1_case_count_100": true
+  },
+  "closed_claims": 20,
+  "counts": {
+    "canonical_cases": 250,
+    "domain_cases": 60,
+    "normative_specifications": 4,
+    "publication_manuscripts": 3,
+    "registry_artifacts": 26,
+    "total_cases": 410,
+    "v1_cases": 100
+  },
+  "doi_assigned": false,
+  "errors": [],
+  "github_release_created": false,
+  "passed": true,
+  "profile": "AOMS-RELEASE-CANDIDATE-001",
+  "release_authorized": false,
+  "tag_created": false,
+  "version": "2.0.0-rc.1"
+}
