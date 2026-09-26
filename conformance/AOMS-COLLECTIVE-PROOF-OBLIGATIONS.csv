@@ -1,0 +1,13 @@
+obligation_id,claim,discharge_evidence,result
+AOMS-COL-PO-001,Valid collective authority can ALLOW,cases/collective/AOMS-COL-001.json,DISCHARGED
+AOMS-COL-PO-002,Missing required role cannot ALLOW,cases/collective/AOMS-COL-002.json,DISCHARGED
+AOMS-COL-PO-003,Unauthorized coordinator cannot ALLOW,cases/collective/AOMS-COL-003.json,DISCHARGED
+AOMS-COL-PO-004,Scope enlargement cannot ALLOW,cases/collective/AOMS-COL-004.json,DISCHARGED
+AOMS-COL-PO-005,Invalid quorum cannot ALLOW,cases/collective/AOMS-COL-005.json,DISCHARGED
+AOMS-COL-PO-006,Duplicate identity cannot increase quorum,cases/collective/AOMS-COL-006.json,DISCHARGED
+AOMS-COL-PO-007,Separation-of-duties failure cannot ALLOW,cases/collective/AOMS-COL-007.json,DISCHARGED
+AOMS-COL-PO-008,Expired required authority requires reauthorization,cases/collective/AOMS-COL-008.json,DISCHARGED
+AOMS-COL-PO-009,Protected boundary requires escalation,cases/collective/AOMS-COL-009.json,DISCHARGED
+AOMS-COL-PO-010,Optional inadmissible participant does not veto lawful required set,cases/collective/AOMS-COL-010.json,DISCHARGED
+AOMS-COL-PO-011,Revoked delegation cannot ALLOW,cases/collective/AOMS-COL-011.json,DISCHARGED
+AOMS-COL-PO-012,Disconnected delegation cannot ALLOW,cases/collective/AOMS-COL-012.json,DISCHARGED

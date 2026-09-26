@@ -1,0 +1,116 @@
+{
+  "case_id": "AOMS-COL-011",
+  "expected": {
+    "decision": "DENY",
+    "required_reasons": [
+      "delegation_inactive"
+    ]
+  },
+  "request": {
+    "coordinator_authorized": true,
+    "coordinator_id": "coordinator-001",
+    "participants": [
+      {
+        "artifact": {
+          "actor_id": "agent-001",
+          "artifact_version": "1",
+          "authority_valid": true,
+          "authorization_id": "AUTH-agent-001",
+          "authorized_action": "collective-act",
+          "authorized_at": "2026-01-01T00:00:00Z",
+          "dependency_state": "READY",
+          "environment_state": "VALID",
+          "evidence_state": "SUFFICIENT",
+          "expires_at": "2027-01-01T00:00:00Z",
+          "identity_state": "VERIFIED",
+          "issuer_id": "principal-001",
+          "policy_version": "COLLECTIVE-1",
+          "resource_state": "READY"
+        },
+        "context": {
+          "actor_id": "agent-001",
+          "attempted_at": "2026-06-01T00:00:00Z",
+          "authority_valid": true,
+          "boundary_signals": [],
+          "context_id": "CTX-agent-001",
+          "dependency_state": "READY",
+          "environment_state": "VALID",
+          "evidence_state": "SUFFICIENT",
+          "identity_state": "VERIFIED",
+          "policy_version": "COLLECTIVE-1",
+          "requested_action": "collective-act",
+          "resource_state": "READY"
+        },
+        "delegated_scope": [
+          "collective-act"
+        ],
+        "delegation_chain": [],
+        "participant_id": "agent-001",
+        "required": true,
+        "role": "PROPOSER"
+      },
+      {
+        "artifact": {
+          "actor_id": "agent-002",
+          "artifact_version": "1",
+          "authority_valid": true,
+          "authorization_id": "AUTH-agent-002",
+          "authorized_action": "collective-act",
+          "authorized_at": "2026-01-01T00:00:00Z",
+          "dependency_state": "READY",
+          "environment_state": "VALID",
+          "evidence_state": "SUFFICIENT",
+          "expires_at": "2027-01-01T00:00:00Z",
+          "identity_state": "VERIFIED",
+          "issuer_id": "principal-001",
+          "policy_version": "COLLECTIVE-1",
+          "resource_state": "READY"
+        },
+        "context": {
+          "actor_id": "agent-002",
+          "attempted_at": "2026-06-01T00:00:00Z",
+          "authority_valid": true,
+          "boundary_signals": [],
+          "context_id": "CTX-agent-002",
+          "dependency_state": "READY",
+          "environment_state": "VALID",
+          "evidence_state": "SUFFICIENT",
+          "identity_state": "VERIFIED",
+          "policy_version": "COLLECTIVE-1",
+          "requested_action": "collective-act",
+          "resource_state": "READY"
+        },
+        "delegated_scope": [
+          "collective-act"
+        ],
+        "delegation_chain": [
+          {
+            "active": true,
+            "delegate_id": "agent-002",
+            "delegator_id": "principal-001",
+            "revoked": true,
+            "scope": [
+              "collective-act"
+            ]
+          }
+        ],
+        "participant_id": "agent-002",
+        "required": true,
+        "role": "APPROVER"
+      }
+    ],
+    "quorum_required": 2,
+    "request_id": "AOMS-COL-011-REQUEST",
+    "requested_action": "collective-act",
+    "required_roles": [
+      "PROPOSER",
+      "APPROVER"
+    ],
+    "separation_of_duties": [
+      [
+        "PROPOSER",
+        "APPROVER"
+      ]
+    ]
+  }
+}

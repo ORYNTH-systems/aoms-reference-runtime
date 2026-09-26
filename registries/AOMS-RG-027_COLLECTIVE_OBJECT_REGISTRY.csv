@@ -1,0 +1,6 @@
+object_id,object_name,purpose,status
+AOMS-COL-OBJ-001,CollectiveExecutionRequest,Declares the governed collective effect,CANONICAL
+AOMS-COL-OBJ-002,CollectiveParticipant,Binds a participant identity role and canonical inputs,CANONICAL
+AOMS-COL-OBJ-003,DelegationLink,Represents one attributable scoped delegation edge,CANONICAL
+AOMS-COL-OBJ-004,ParticipantEvaluation,Binds individual decision delegation and scope results,CANONICAL
+AOMS-COL-OBJ-005,CollectiveDecision,Terminal collective outcome and provenance,CANONICAL

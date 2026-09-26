@@ -1,0 +1,19 @@
+{
+  "case_count": 12,
+  "checks": {
+    "all_cases_pass": true,
+    "all_decisions_represented": true,
+    "exact_case_count": true,
+    "fresh_execution_identity": true,
+    "terminal_and_provenanced": true
+  },
+  "decision_counts": {
+    "ALLOW": 2,
+    "DENY": 7,
+    "ESCALATE": 1,
+    "REAUTHORIZE": 2
+  },
+  "errors": [],
+  "passed": true,
+  "profile": "AOMS-COLLECTIVE-001"
+}

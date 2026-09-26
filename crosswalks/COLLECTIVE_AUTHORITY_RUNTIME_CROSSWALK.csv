@@ -1,0 +1,9 @@
+concept,runtime_object_or_engine,evidence
+collective request,CollectiveExecutionRequest,src/canonical/collective_models.py
+participant reconstruction,CanonicalPipeline,src/canonical/collective_pipeline.py
+delegation validity,DelegationChainEngine,tests/test_collective_authority.py
+scope attenuation,ScopeCompositionEngine,cases/collective/AOMS-COL-004.json
+unique quorum,QuorumEvaluationEngine,cases/collective/AOMS-COL-006.json
+separation of duties,SeparationOfDutiesEngine,cases/collective/AOMS-COL-007.json
+collective admissibility,CollectiveAdmissibilityEngine,reports/collective/BATCH_12_COLLECTIVE_AUTHORITY.json
+distributed accountability,AccountabilityAttributionEngine,specifications/AOMS-SPEC-005_COLLECTIVE_AUTHORITY.md

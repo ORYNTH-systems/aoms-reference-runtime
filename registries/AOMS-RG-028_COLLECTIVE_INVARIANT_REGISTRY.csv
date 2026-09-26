@@ -1,0 +1,9 @@
+invariant_id,invariant,requirement
+AOMS-COL-INV-001,Multiplicity Non-Creation,Multiplicity does not create authority
+AOMS-COL-INV-002,Coordination Non-Enlargement,Coordination does not enlarge delegated scope
+AOMS-COL-INV-003,Quorum Non-Creation,Quorum cannot manufacture authority
+AOMS-COL-INV-004,Participant Independence,Every required participant is independently reconstructed
+AOMS-COL-INV-005,Scope Attenuation,Downstream delegation scope cannot exceed parent scope
+AOMS-COL-INV-006,Identity Uniqueness,Duplicate identity cannot increase quorum
+AOMS-COL-INV-007,Duty Separation,Required incompatible roles cannot collapse into one identity
+AOMS-COL-INV-008,Accountability Preservation,Distribution does not dissolve individual accountability
